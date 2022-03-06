@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding: 8px 20px;
+  transition: left 0.2s ease 0s;
+  width: 100%;
+  border-bottom: 1px solid rgba(131, 131, 131, 0.363);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 25px;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: white;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.navLinks li {
+  margin: 0 20px 0;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons li img {
+  margin: 0 8px;
+}

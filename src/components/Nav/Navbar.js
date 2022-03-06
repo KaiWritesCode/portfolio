@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
+import { HamburgerIcon } from '@chakra-ui/icons'
 import MobileNavbar from './MobileNavbar'
+import styles from './Nav.module.css'
+import "../../App.css"
+import { Flex } from "@chakra-ui/react"
+import { Link } from 'react-scroll'
+
+
 
 export default function Navbar() {
     let [openMenu, setOpenMenu] = useState(false);
@@ -23,51 +29,76 @@ export default function Navbar() {
 
     const mainnav = (
         <div>
-            <div className="nav-container">
-                <nav className="main-nav">
-                    <a href="">
-
-                        <span className="logo">
+            <div className={styles.wrapper}>
+                <nav className={styles.container}>
+                    <a href="/">
+                        <span className={styles.logo}>
                             <img
-                                src="/crypto-stats/images/invest-bitcoins-removebg-preview.png"
-                                width="80px"
+                                src="/images/sun.png"
+                                width="50px"
                                 alt=""
                             />
-                            CryptoStats
+                            Kai's Portfolio
                         </span>
                     </a>
+
                     <div
                         className={` menu-icon ${openMenu ? "no-menu" : "active-menu"}`}
                         onClick={openNavMenu}
                     >
                         <HamburgerIcon boxSize="1.5em" />
                     </div>
-                    <div className="link-search-container">
-                        <ul className="nav-links">
+
+                    <Flex alignItems="center" justifyContent="space-between">
+                        <ul className={styles.navLinks}>
                             <li>
-                                <a href=""> Home</a>
+                                <Link to="projects" smooth={true}>
+                                    Projects
+                                </Link>
                             </li>
                             <li>
-                                <a href="">Categories</a>
+                                <Link to="about" smooth={true}>
+                                    About
+                                </Link>
                             </li>
                             <li>
-                                <a href=""> Exchanges</a>
+                                <Link to="contact" smooth={true}>
+                                    Contact
+                                </Link>
                             </li>
                             <li>
-                                <a href=""> About</a>
+                                <a href="https://kaiwritescode.hashnode.dev/" target="_blank" rel="noreferrer">Blog</a>
                             </li>
                         </ul>
-
-                    </div>
+                        <div>
+                            <ul className={styles.socialIcons}>
+                                <li>
+                                    <a href="https://github.com/therealkai">
+                                        <img className={styles.icon} src="/images/github.png" alt="github" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/kaiwritescode">
+                                        <img className={styles.icon} src="/images/twitter.png" alt="twitter" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://kaiwritescode.hashnode.dev/">
+                                        <img className={styles.icon} src="/images/hashnode.jpeg" alt="hashnode" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </Flex>
                 </nav>
             </div>
         </div>
     );
 
     return (
-        <div>
+        <>
             {mainnav}
-            <MobileNavbar closeNavMenu={closeNavMenu} openNavMenu="openNavMenu" />
-        </div>
+            <MobileNavbar closeNavMenu={closeNavMenu} openMenu={openMenu} />
+        </>
     );
 }
