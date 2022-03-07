@@ -31,17 +31,17 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
 
             <ul style={{ margin: "0.5em 2em" }}>
                 <li>
-                    <Link to="projects" smooth={true}>
+                    <Link to="projects" smooth={true} onClick={closeNavMenu}>
                         Projects
                     </Link>
                 </li>
                 <li>
-                    <Link to="about" smooth={true}>
+                    <Link to="about" smooth={true} onClick={closeNavMenu}>
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link to="contact" smooth={true}>
+                    <Link to="contact" smooth={true} onClick={closeNavMenu}>
                         Contact
                     </Link>
                 </li>

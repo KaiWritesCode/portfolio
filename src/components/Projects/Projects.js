@@ -5,9 +5,8 @@ import '../../App.css'
 export default function Projects() {
     return (
 
-        <div id='projects'>
+        <section id='projects'>
             Projects
-
-        </div>
+        </section>
     )
 }
