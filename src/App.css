@@ -48,6 +48,9 @@ p {
 }
 
 @media screen and (max-width: 778px) {
+  .wrapper {
+    padding: 0 1.5rem;
+  }
   /* Mobile Navbar   */
   .menu-icon,
   .close-icon {

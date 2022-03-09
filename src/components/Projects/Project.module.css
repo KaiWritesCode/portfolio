@@ -1,0 +1,37 @@
+.project_lg {
+  width: 60%;
+}
+
+.project_sm {
+  width: 40%;
+}
+
+.firstRow,
+.secondRow {
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 778px) {
+  .firstRow,
+  .secondRow {
+    flex-direction: column;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .project_lg > img,
+  .project_sm > img {
+    height: auto;
+  }
+
+  .project_lg {
+    width: 100%;
+  }
+
+  .project_sm {
+    width: 100%;
+  }
+}
