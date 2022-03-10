@@ -27,70 +27,68 @@ export default function Navbar() {
 
 
     const mainnav = (
-        <div>
-            <div className={styles.wrapper}>
-                <nav className={styles.container}>
-                    <a href="/">
-                        <span className={styles.logo}>
-                            <img
-                                src="/images/sun.png"
-                                width="50px"
-                                alt=""
-                            />
-                            Kai's Portfolio
-                        </span>
-                    </a>
+        <div className={styles.wrapper}>
+            <nav className={styles.container}>
+                <a href="/">
+                    <span className={styles.logo}>
+                        <img
+                            src="/images/sun.png"
+                            width="50px"
+                            alt=""
+                        />
+                        Kai's Portfolio
+                    </span>
+                </a>
 
-                    <div
-                        className={` menu-icon ${openMenu ? "no-menu" : "active-menu"}`}
-                        onClick={openNavMenu}
-                    >
-                        <HamburgerIcon boxSize="1.5em" />
-                    </div>
+                <div
+                    className={` menu-icon ${openMenu ? "no-menu" : "active-menu"}`}
+                    onClick={openNavMenu}
+                >
+                    <HamburgerIcon boxSize="1.5em" />
+                </div>
 
-                    <div className="nav-link-container">
-                        <ul className={styles.navLinks}>
+                <div className="nav-link-container">
+                    <ul className={styles.navLinks}>
+                        <li>
+                            <Link to="projects" smooth={true}>
+                                Projects
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="about" smooth={true}>
+                                About
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="contact" smooth={true}>
+                                Contact
+                            </Link>
+                        </li>
+                        <li>
+                            <a href="https://kaiwritescode.hashnode.dev/" target="_blank" rel="noreferrer">Blog</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <ul className={styles.socialIcons}>
                             <li>
-                                <Link to="projects" smooth={true}>
-                                    Projects
-                                </Link>
+                                <a href="https://github.com/therealkai">
+                                    <img className={styles.icon} src="/images/icons/github.png" alt="github" />
+                                </a>
                             </li>
                             <li>
-                                <Link to="about" smooth={true}>
-                                    About
-                                </Link>
+                                <a href="https://twitter.com/kaiwritescode">
+                                    <img className={styles.icon} src="/images/icons/free-twitter.png" alt="twitter" />
+                                </a>
                             </li>
                             <li>
-                                <Link to="contact" smooth={true}>
-                                    Contact
-                                </Link>
-                            </li>
-                            <li>
-                                <a href="https://kaiwritescode.hashnode.dev/" target="_blank" rel="noreferrer">Blog</a>
+                                <a href="https://kaiwritescode.hashnode.dev/">
+                                    <img className={styles.icon} src="/images/hashnode.jpeg" alt="hashnode" />
+                                </a>
                             </li>
                         </ul>
-                        <div>
-                            <ul className={styles.socialIcons}>
-                                <li>
-                                    <a href="https://github.com/therealkai">
-                                        <img className={styles.icon} src="/images/icons/github.png" alt="github" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/kaiwritescode">
-                                        <img className={styles.icon} src="/images/icons/free-twitter.png" alt="twitter" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://kaiwritescode.hashnode.dev/">
-                                        <img className={styles.icon} src="/images/hashnode.jpeg" alt="hashnode" />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </div>
     );
 
