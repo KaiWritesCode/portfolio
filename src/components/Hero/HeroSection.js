@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './Hero.module.css'
+import { Link } from 'react-scroll'
+
 
 export default function HeroSection() {
     return (
@@ -10,7 +12,10 @@ export default function HeroSection() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque libero nisi,
                         asperiores numquam, molestias nesciunt quaerat sequi, repellat ab cum vel!
                         Nisi doloremque ratione pariatur eos rem? Maxime, quos ab!</p>
-                    <button>Get in touch</button>
+
+                    <Link className={styles.btn} to="contact" smooth={true}>
+                        Get in touch
+                    </Link>
                 </div>
 
                 <div className={styles.box}>

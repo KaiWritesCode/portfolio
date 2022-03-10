@@ -17,6 +17,25 @@
   width: 50%;
 }
 
+.btn {
+  display: inline-block;
+  padding: 15px 28px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #3ecf8e;
+  border: 1px solid #3ecf8e;
+  border-radius: 200px;
+  box-shadow: 0 14px 27px 3px rgb(62 207 142 / 30%);
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: rgb(45, 182, 86);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 778px) {
   .flexCenter {
     flex-direction: column;
