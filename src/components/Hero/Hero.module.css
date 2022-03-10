@@ -4,8 +4,25 @@
 
 #heroSection p {
   margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
   width: 50%;
+}
+
+@media screen and (max-width: 778px) {
+  .flexCenter {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+  }
 }

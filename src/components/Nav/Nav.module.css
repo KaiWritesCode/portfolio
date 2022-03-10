@@ -26,7 +26,6 @@
   display: flex;
   justify-content: center;
   list-style: none;
-  font-weight: 600;
   margin-right: 20px;
 }
 
@@ -41,4 +40,10 @@
 
 .socialIcons li img {
   margin: 0 8px;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

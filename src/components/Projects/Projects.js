@@ -1,21 +1,20 @@
 import React from 'react'
 import styles from './Project.module.css'
 import '../../App.css'
-import { Heading } from '@chakra-ui/react'
 
 export default function Projects() {
     return (
 
         <section id='projects'>
-            <Heading size="lg">Projects</Heading>
+            <h2 size="lg">Projects</h2>
 
 
             {/* autoPlay loop muted */}
             <div className={styles.firstRow}>
                 <div className={styles.project_lg}>
-                    <video className={styles.video}>
+                    {/* <video className={styles.video}>
                         <source src="images/macbook-mock.mp4" type='video/mp4' />
-                    </video>
+                    </video> */}
                 </div>
                 <div className={styles.project_sm}>
                     <img className={styles.video} src="images/floating-iphone.jpg" alt="" />
@@ -27,9 +26,9 @@ export default function Projects() {
                     <img className={styles.video} src="images/floating-iphone.jpg" alt="" />
                 </div>
                 <div className={styles.project_lg}>
-                    <video className={styles.video}>
+                    {/* <video className={styles.video}>
                         <source src="images/macbook-mock.mp4" type='video/mp4' />
-                    </video>
+                    </video> */}
                 </div>
 
             </div>

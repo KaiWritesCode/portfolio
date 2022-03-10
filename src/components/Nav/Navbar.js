@@ -3,7 +3,6 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import MobileNavbar from './MobileNavbar'
 import styles from './Nav.module.css'
 import "../../App.css"
-import { Flex } from "@chakra-ui/react"
 import { Link } from 'react-scroll'
 
 
@@ -49,7 +48,7 @@ export default function Navbar() {
                         <HamburgerIcon boxSize="1.5em" />
                     </div>
 
-                    <Flex alignItems="center" justifyContent="space-between">
+                    <div className={styles.flexBox}>
                         <ul className={styles.navLinks}>
                             <li>
                                 <Link to="projects" smooth={true}>
@@ -89,7 +88,7 @@ export default function Navbar() {
                                 </li>
                             </ul>
                         </div>
-                    </Flex>
+                    </div>
                 </nav>
             </div>
         </div>
