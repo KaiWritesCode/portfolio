@@ -1,0 +1,50 @@
+.leftCol,
+.rightCol {
+  width: 50%;
+}
+
+.cardContainer {
+  display: flex;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.card {
+  margin: 0 10px;
+  border: 1px solid black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.cardHeader {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 778px) {
+  .flexCenter {
+    flex-direction: column;
+  }
+
+  .leftCol,
+  .rightCol {
+    width: 100%;
+  }
+}
