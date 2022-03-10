@@ -28,6 +28,11 @@ h1 {
 
 h2 {
   margin: 25px 0;
+  font-size: 2rem;
+}
+
+section {
+  margin: 3rem 0;
 }
 
 .wrapper {
@@ -49,10 +54,6 @@ video {
 
 ul {
   list-style: none;
-}
-
-#about {
-  margin: 50px 0;
 }
 
 /* Navbar */

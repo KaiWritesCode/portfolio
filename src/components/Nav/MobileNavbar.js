@@ -58,7 +58,7 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
                 </li>
                 <li>
                     <a href="https://twitter.com/kaiwritescode" target="_blank" rel="noreferrer">
-                        <img className={styles.icon} src="/images/twitter.png" alt="twitter" />
+                        <img className={styles.icon} src="/images/free-twitter.png" alt="twitter" />
                     </a>
                 </li>
                 <li>

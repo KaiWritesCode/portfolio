@@ -1,21 +1,25 @@
 .container {
-  margin: 20px 0;
+  margin: 12px 0;
 }
 
 .blogBox {
   display: flex;
   border: 1px solid black;
-  padding: 1rem 2rem;
-  justify-content: center;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
 }
 
 .imgDiv {
-  width: 40%;
+  width: 50%;
+  max-width: 350px;
+}
+
+.imgDiv > img {
 }
 
 .textDiv {
-  padding-left: 4rem;
-  width: 60%;
+  padding-left: 2rem;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -31,7 +35,7 @@
 }
 
 .heading {
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 778px) {
@@ -50,7 +54,12 @@
   }
 
   .heading {
-    font-size: 1.5rem;
     margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .blogBox {
+    padding: 1rem;
   }
 }
