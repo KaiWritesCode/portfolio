@@ -48,7 +48,7 @@ export default function Navbar() {
                         <HamburgerIcon boxSize="1.5em" />
                     </div>
 
-                    <div className={styles.flexBox}>
+                    <div className="nav-link-container">
                         <ul className={styles.navLinks}>
                             <li>
                                 <Link to="projects" smooth={true}>

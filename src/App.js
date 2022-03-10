@@ -7,12 +7,14 @@ import HeroSection from './components/Hero/HeroSection'
 
 function App() {
   return (
-    <div className='wrapper'>
+    <>
       <Navbar />
-      <HeroSection />
-      <Projects />
-      <About />
-    </div>
+      <div className='wrapper'>
+        <HeroSection />
+        <Projects />
+        <About />
+      </div>
+    </>
 
   );
 }

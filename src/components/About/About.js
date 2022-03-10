@@ -7,7 +7,18 @@ export default function About() {
         <div className={styles.card}>
             <div className={styles.cardTop}>
                 <img src="images/icons/react.png" width="50" alt="" />
-                <div className={styles.cardHeader}>Website Development</div>
+                <div className={styles.cardHeader}>Website Creation</div>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, necessitatibus.
+                Ipsum voluptatibus optio temporibus iste at consectetur repellendus? Exercitationem!</p>
+        </div>
+    )
+
+    const webDevCard2 = (
+        <div className={styles.card}>
+            <div className={styles.cardTop}>
+                <img src="images/icons/troubleshooting.png" width="50" alt="" />
+                <div className={styles.cardHeader}>Troubleshooting</div>
             </div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, necessitatibus.
                 Ipsum voluptatibus optio temporibus iste at consectetur repellendus? Exercitationem!</p>
@@ -17,14 +28,14 @@ export default function About() {
 
     return (
         <section id="about" >
-            <h2 size="lg">What can I do?</h2>
+            <h2>What can I do?</h2>
 
             <div className={styles.flexCenter}>
 
                 <div className={styles.leftCol}>
                     <div className={styles.cardContainer}>
                         {webDevCard}
-                        {webDevCard}
+                        {webDevCard2}
                     </div>
                     <div className={styles.skillsDiv}>
                         <div className={styles.flexBox}>
@@ -62,6 +73,6 @@ export default function About() {
                 </div>
 
             </div>
-        </section>
+        </section >
     )
 }
