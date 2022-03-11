@@ -6,7 +6,8 @@ export default function About() {
     const webDevCard = (
         <div className={styles.card}>
             <div className={styles.cardTop}>
-                <img src="images/icons/react.png" width="50" alt="" />
+                <img className={styles.pic} src="images/icons/computer-icon.png" width="50" alt="" />
+                <img className={styles.gif} src="images/icons/computer-icon.gif" width="50" alt="" />
                 <div className={styles.cardHeader}>Website Creation</div>
             </div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, necessitatibus.
@@ -14,10 +15,12 @@ export default function About() {
         </div>
     )
 
+
     const webDevCard2 = (
         <div className={styles.card}>
             <div className={styles.cardTop}>
-                <img src="images/icons/troubleshooting.png" width="50" alt="" />
+                <img className={styles.pic} src="images/icons/tool-icon.png" width="50" alt="" />
+                <img className={styles.gif} src="images/icons/tool-icon.gif" width="50" alt="" />
                 <div className={styles.cardHeader}>Troubleshooting</div>
             </div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, necessitatibus.

@@ -4,7 +4,8 @@
 
 .blogBox {
   display: flex;
-  border: 1px solid black;
+  border: 2px solid var(--accentColor);
+  border-radius: 10px;
   padding: 1rem 1.5rem;
   justify-content: space-between;
 }
@@ -12,9 +13,6 @@
 .imgDiv {
   width: 50%;
   max-width: 350px;
-}
-
-.imgDiv > img {
 }
 
 .textDiv {
@@ -36,6 +34,7 @@
 
 .heading {
   font-size: 1.5em;
+  color: var(--white);
 }
 
 @media screen and (max-width: 778px) {

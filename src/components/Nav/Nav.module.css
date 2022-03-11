@@ -9,18 +9,31 @@
   max-width: 1200px;
 }
 
+.logo .gif {
+  display: none;
+}
+
+.logo:hover .gif {
+  display: block;
+}
+
+.logo:hover .pic {
+  display: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
 }
 
-.icon {
-  width: 25px;
+.logo > span {
+  color: white;
+  font-size: 1.3rem;
+  margin-left: -10px;
 }
 
-.wrapper,
-.mobileNavWrapper {
-  border-bottom: 1px solid rgba(131, 131, 131, 0.363);
+.icon {
+  width: 25px;
 }
 
 .navLinks {
@@ -30,8 +43,9 @@
   margin-right: 20px;
 }
 
-.navLinks li {
+.navLinks li a {
   margin: 0 20px 0;
+  color: white;
 }
 
 .socialIcons {

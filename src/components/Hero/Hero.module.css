@@ -24,16 +24,19 @@
   font-size: 16px;
   color: #fff;
   text-decoration: none;
-  background-color: #3ecf8e;
-  border: 1px solid #3ecf8e;
+  background-color: #28acb3;
+  border: var(--accentColor);
   border-radius: 200px;
-  box-shadow: 0 14px 27px 3px rgb(62 207 142 / 30%);
-  transition: background-color 0.2s;
+  box-shadow: rgba(35, 143, 149, 0.157) 0px 20px 25px -5px,
+    rgba(35, 143, 149, 0.082) 0px 10px 10px -5px;
+  transition: background-color 0.3s;
 }
 
 .btn:hover {
-  background-color: rgb(45, 182, 86);
+  background-color: #239095;
   cursor: pointer;
+  box-shadow: rgba(35, 143, 149, 0.192) 0px 20px 25px -5px,
+    rgba(35, 143, 149, 0.157) 0px 10px 10px -5px;
 }
 
 @media screen and (max-width: 778px) {

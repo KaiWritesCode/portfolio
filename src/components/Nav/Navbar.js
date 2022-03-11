@@ -31,12 +31,9 @@ export default function Navbar() {
             <nav className={styles.container}>
                 <a href="/">
                     <span className={styles.logo}>
-                        <img
-                            src="/images/sun.png"
-                            width="50px"
-                            alt=""
-                        />
-                        Kai's Portfolio
+                        <img src="images/icons/palmtree-icon.png" width="75px" alt="" className={styles.pic} />
+                        <img src="images/icons/palmtree-icon.gif" width="75px" alt="" className={styles.gif} />
+                        <span>Kai's Portfolio</span>
                     </span>
                 </a>
 
@@ -82,7 +79,7 @@ export default function Navbar() {
                             </li>
                             <li>
                                 <a href="https://kaiwritescode.hashnode.dev/">
-                                    <img className={styles.icon} src="/images/hashnode.jpeg" alt="hashnode" />
+                                    <img className={styles.icon} src="/images/icons/hashnode.png" alt="hashnode" />
                                 </a>
                             </li>
                         </ul>

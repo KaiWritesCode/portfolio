@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+:root {
+  --text: #b7c9e0;
+  --backgroundColor: #1b263b;
+  --accentColor: #28979c;
+  --white: white;
+}
 
 * {
   margin: 0;
@@ -7,28 +13,33 @@
   box-sizing: border-box;
   font-family: "Chivo", "Inter", sans-serif;
 }
+
 body {
   overflow-x: hidden;
+  background-color: var(--backgroundColor);
+  color: #b7c9e0;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #b7c9e0;
 }
 
 p {
   line-height: 1.6;
-  color: rgb(58, 58, 58);
+  color: #b7c9e0;
 }
 
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
+  color: var(--white);
 }
 
 h2 {
   margin: 25px 0;
   font-size: 2rem;
+  color: var(--white);
 }
 
 section {
@@ -79,7 +90,7 @@ ul {
 
 @media screen and (max-width: 778px) {
   .wrapper {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
   }
   /* Mobile Navbar   */
   .menu-icon,
@@ -96,7 +107,7 @@ ul {
   .nav-modal {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--backgroundColor);
     height: 100vh;
     width: 100%;
     z-index: 1000;
@@ -126,5 +137,11 @@ ul {
 
   body.active-navLinks {
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .wrapper {
+    padding: 0 1.5rem;
   }
 }

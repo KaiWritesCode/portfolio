@@ -15,15 +15,16 @@ export default function Projects() {
                     {/* <video className={styles.video}>
                         <source src="images/macbook-mock.mp4" type='video/mp4' />
                     </video> */}
+                    <img className={styles.video} src="images/mockups/cs-mockup-dark.png" alt="" />
                 </div>
                 <div className={styles.project_sm}>
-                    <img className={styles.video} src="images/floating-iphone.jpg" alt="" />
+                    <img className={styles.video} src="images/mockups/tablet-dark.jpg" alt="" />
                 </div>
             </div>
 
             <div className={styles.secondRow}>
                 <div className={styles.project_sm}>
-                    <img className={styles.video} src="images/floating-iphone.jpg" alt="" />
+                    <img className={styles.video} src="images/mockups/floating-iphone.png" alt="" />
                 </div>
                 <div className={styles.project_lg}>
                     {/* <video className={styles.video}>

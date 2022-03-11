@@ -15,7 +15,7 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
                     <span className={styles.logo}>
                         <a href="/">
                             <span className={styles.logo}>
-                                <img src="/images/sun.png" width="50px" alt="" />
+                                <img src="images/icons/palmtree-icon.png" width="50px" alt="" />
                                 Kai's Portfolio
                             </span>
                         </a>
@@ -63,7 +63,7 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
                 </li>
                 <li>
                     <a href="https://kaiwritescode.hashnode.dev/" target="_blank" rel="noreferrer">
-                        <img className={styles.icon} src="/images/hashnode.jpeg" alt="hashnode" />
+                        <img className={styles.icon} src="/images/icons/hashnode.png" alt="hashnode" />
                     </a>
                 </li>
             </ul>

@@ -22,7 +22,8 @@
 }
 
 .card {
-  border: 1px solid black;
+  border: 2px solid var(--accentColor);
+  border-radius: 10px;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -42,6 +43,19 @@
 .cardHeader {
   font-weight: 500;
   font-size: 1.2rem;
+  color: var(--white);
+}
+
+.card .gif {
+  display: none;
+}
+
+.card:hover .pic {
+  display: none;
+}
+
+.card:hover .gif {
+  display: block;
 }
 
 @media screen and (max-width: 1200px) {
