@@ -9,11 +9,11 @@ export default function Blogs() {
                 <a className={styles.blogBox} href="https://kaiwritescode.hashnode.dev/react-props-guide" target="_blank" rel="noreferrer">
                     <div className={styles.imgDiv}><img src="images/react-props-blog.jpeg" alt="" /></div>
                     <div className={styles.textDiv}>
-                        <h3 className={styles.heading}>Typescript Basics</h3>
-                        <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur adipisicing
-                            m ssimus doloribus m ssimus doloribus quaerat repellendus aperiam
-                            , quo quae at?</p>
-                        <p className={styles.date}>May 3, 2015</p>
+                        <h3 className={styles.heading}>Everything to Know About React Props</h3>
+                        <p className={styles.paragraph}>A beginner's guide to the core concept of React Props. Learn what React props are
+                            and how to use them, there are many examples to help you grasp all the main ideas.
+                        </p>
+                        <p className={styles.date}>Feb 13, 2022</p>
                     </div>
                 </a>
             </div>
@@ -23,9 +23,9 @@ export default function Blogs() {
                     <div className={styles.imgDiv}><img src="images/git-blog.jpeg" alt="" /></div>
                     <div className={styles.textDiv}>
                         <h3 className={styles.heading}>How to Use Git in Your Next Project</h3>
-                        <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur adipisicing
-                            m ssimus doloribus ndus aperiam  m ssimus doloribus ndus aperiam</p>
-                        <p className={styles.date}>May 3, 2015</p>
+                        <p className={styles.paragraph}>Git is an essential skill for all developers to have. Learn why it's important and how to
+                            to implement Git in your next project using Github.</p>
+                        <p className={styles.date}>Feb 5, 2022</p>
                     </div>
                 </a>
             </div>
@@ -34,10 +34,10 @@ export default function Blogs() {
                 <a className={styles.blogBox} href="https://kaiwritescode.hashnode.dev/best-styling-librariesframeworks-to-use-with-react-2022" target="_blank" rel="noreferrer">
                     <div className={styles.imgDiv}><img src="images/styling-blog.jpeg" alt="" /></div>
                     <div className={styles.textDiv}>
-                        <h3 className={styles.heading}>Best Styling Libraries/Frameworks to Use With React 2022</h3>
-                        <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur adipisicing
-                            m ssimus doloribus ndus aperiam  m ssimus doloribus ndus aperiam</p>
-                        <p className={styles.date}>May 3, 2015</p>
+                        <h3 className={styles.heading}>Best Styling Libraries For React 2022</h3>
+                        <p className={styles.paragraph}>Looking for the best option for styling in your next project? Take a
+                            look at this article to see some of the best libraries to use in 2022 with included pictures and links.</p>
+                        <p className={styles.date}>Jan 14, 2022</p>
                     </div>
                 </a>
             </div>

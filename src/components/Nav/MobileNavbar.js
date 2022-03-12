@@ -15,8 +15,9 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
                     <span className={styles.logo}>
                         <a href="/">
                             <span className={styles.logo}>
-                                <img src="images/icons/palmtree-icon.png" width="50px" alt="" />
-                                Kai's Portfolio
+                                <img src="images/icons/palmtree-icon.png" width="75px" alt="" className={styles.pic} />
+                                <img src="images/icons/palmtree-icon.gif" width="75px" alt="" className={styles.gif} />
+                                <span>Kai's Portfolio</span>
                             </span>
                         </a>
                     </span>
@@ -29,7 +30,7 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
                 </div>
             </div>
 
-            <ul style={{ margin: "0.5em 2em" }}>
+            <ul className={styles.mobileUl}>
                 <li>
                     <Link to="projects" smooth={true} onClick={closeNavMenu}>
                         Projects
@@ -58,7 +59,7 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
                 </li>
                 <li>
                     <a href="https://twitter.com/kaiwritescode" target="_blank" rel="noreferrer">
-                        <img className={styles.icon} src="/images/icons/free-twitter.png" alt="twitter" />
+                        <img className={styles.icon} src="/images/icons/twitter-white.png" alt="twitter" />
                     </a>
                 </li>
                 <li>

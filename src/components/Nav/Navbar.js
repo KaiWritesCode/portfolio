@@ -74,7 +74,7 @@ export default function Navbar() {
                             </li>
                             <li>
                                 <a href="https://twitter.com/kaiwritescode">
-                                    <img className={styles.icon} src="/images/icons/free-twitter.png" alt="twitter" />
+                                    <img className={styles.icon} src="/images/icons/twitter-white.png" alt="twitter" />
                                 </a>
                             </li>
                             <li>

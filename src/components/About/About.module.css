@@ -27,6 +27,7 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  transition: all 0.16s ease-in;
 }
 
 .cardContainer .card:first-child {
@@ -44,6 +45,13 @@
   font-weight: 500;
   font-size: 1.2rem;
   color: var(--white);
+}
+
+/* Card Hover Effects  */
+
+.card:hover {
+  box-shadow: rgba(35, 143, 149, 0.082) 0px 48px 100px 0px;
+  border-color: #33bcc3;
 }
 
 .card .gif {
