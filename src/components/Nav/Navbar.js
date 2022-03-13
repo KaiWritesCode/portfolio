@@ -52,8 +52,8 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="about" smooth={true}>
-                                About
+                            <Link to="skills" smooth={true}>
+                                Skills
                             </Link>
                         </li>
                         <li>

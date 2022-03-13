@@ -57,12 +57,17 @@ export default function Contact() {
                             </li>
                             <li>
                                 <a href="https://twitter.com/kaiwritescode">
-                                    <img className={styles.icon} src="/images/icons/free-twitter.png" alt="twitter" />
+                                    <img className={styles.icon} src="/images/icons/twitter-white.png" alt="twitter" />
                                 </a>
                             </li>
                             <li>
                                 <a href="mailto: kbechdel8@gmail.com">
-                                    <img className={styles.icon} src="/images/icons/gmail.png" alt="gmail" />
+                                    <img className={styles.icon} src="/images/icons/email.png" alt="gmail" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:3866902153">
+                                    <img className={styles.icon} src="/images/icons/phone-call.png" alt="gmail" />
                                 </a>
                             </li>
                         </ul>

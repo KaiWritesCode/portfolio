@@ -1,21 +1,10 @@
-.project_lg {
-  width: 50%;
-}
-
-.project_sm {
-  width: 50%;
-}
-
-.firstRow,
-.secondRow {
-  width: 100%;
+.row {
   display: flex;
 }
-
+/* 
 .video {
-  border: 1px solid white;
-  background-color: white;
-}
+  width: 80%;
+} */
 
 @media screen and (max-width: 778px) {
   .firstRow,

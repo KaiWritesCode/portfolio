@@ -9,39 +9,43 @@ export default function Projects() {
             <h2 size="lg">Projects</h2>
 
 
-            {/* autoPlay loop muted */}
-            <div className={styles.firstRow}>
-                <div className={styles.project_lg}>
-                    {/* <video className={styles.video}>
-                        <source src="images/macbook-mock.mp4" type='video/mp4' />
-                    </video> */}
-                    <img className={styles.video} src="images/mockups/cs-mockup-dark.png" alt="" />
+            <div className={styles.container}>
+                <div className={styles.row}>
+                    <div className={styles.imageDiv}>
+                        <img className={styles.image} src="images/mockups/testmock.png" alt="" />
+                    </div>
+                    <div className={styles.textDiv}>
+                        <h3>Crypto Stats</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sunt voluptatum ipsam exercitationem voluptas nemo incidunt molestias dicta fugiat dignissimos!
+                            Ab nostrum cupiditate sequi, voluptates eveniet dignissimos deleniti veniam facilis!</p>
+                    </div>
+
                 </div>
-                <div className={styles.project_sm}>
-                    <img className={styles.video} src="images/mockups/tablet-dark.jpg" alt="" />
+
+                <div className={styles.row}>
+                    <div className={styles.imageDiv}>
+                        <img className={styles.image} src="images/mockups/nft-spotter.png" alt="" />
+                    </div>
+                    <div className={styles.textDiv}>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sunt voluptatum ipsam exercitationem voluptas nemo incidunt molestias dicta fugiat dignissimos!
+                            Ab nostrum cupiditate sequi, voluptates eveniet dignissimos deleniti veniam facilis!</p>
+                    </div>
                 </div>
+
+                <div className={styles.row}>
+                    <div className={styles.imageDiv}>
+                        <img className={styles.image} src="images/mockups/floating-iphone.png" alt="" />
+                    </div>
+                    <div className={styles.textDiv}>
+
+                    </div>
+
+
+                </div>
+
             </div>
 
-            <div className={styles.secondRow}>
-                <div className={styles.project_sm}>
-                    <img className={styles.video} src="images/mockups/floating-iphone.png" alt="" />
-                </div>
-                <div className={styles.project_lg}>
-                    {/* <video className={styles.video}>
-                        <source src="images/macbook-mock.mp4" type='video/mp4' />
-                    </video> */}
-                </div>
 
-            </div>
-
-            {/* <div className={styles.secondRow}>
-                <div className={styles.project_sm}>
-                    <img src="" alt="" />
-                </div>
-                <div className={styles.project_lg}>
-                    <img src="" alt="" />
-                </div>
-            </div> */}
 
         </section >
     )

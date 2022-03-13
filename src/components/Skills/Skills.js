@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './About.module.css'
+import styles from './Skills.module.css'
 
 export default function About() {
 
@@ -30,7 +30,7 @@ export default function About() {
 
 
     return (
-        <section id="about" >
+        <section id="skills" >
             <h2>What can I do?</h2>
 
             <div className={styles.flexCenter}>

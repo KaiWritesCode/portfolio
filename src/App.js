@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Nav/Navbar';
-import About from './components/About/About'
+import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects';
 import HeroSection from './components/Hero/HeroSection'
 import Blogs from './components/Blogs/Blogs';
@@ -15,7 +15,7 @@ function App() {
       <div className='wrapper'>
         <HeroSection />
         <Projects />
-        <About />
+        <Skills />
         <Blogs />
         <Contact />
       </div>
