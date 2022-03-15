@@ -23,17 +23,17 @@
 
 .socialIcons {
   display: flex;
-  justify-content: space-evenly;
   margin: 20px 0;
 }
 
 .socialIcons img {
   width: 40px;
+  margin: 0 12px;
 }
 
 .contactForm textarea,
 input {
-  background: #fcfcfc;
+  background: #ffffff;
   box-shadow: 0 0.2rem 0.2rem rgba(51, 51, 51, 0.157);
   border-radius: 4px;
   display: block;
@@ -57,14 +57,12 @@ input {
 }
 
 .contactForm button {
-  background-color: #ff7171;
   border: 1px solid #262626;
-  padding: 10px 15px;
+  padding: 12px 15px;
   margin: 10px 0;
   width: 250px;
   border-radius: 5px;
   text-decoration: none;
-  color: white;
   text-transform: uppercase;
 }
 

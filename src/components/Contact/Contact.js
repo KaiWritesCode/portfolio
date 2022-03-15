@@ -31,10 +31,10 @@ export default function Contact() {
     const contactForms = (
         <form onSubmit={sendEmail}>
             <div className={styles.contactForm}>
-                <input type="text" name="user_name" placeholder='name' />
-                <input type="email" name="user_email" placeholder='email' />
-                <textarea name="message" placeholder='message' />
-                <button type="submit" value="Send">Send</button>
+                <input required type="text" name="user_name" placeholder='name' />
+                <input required type="email" name="user_email" placeholder='email' />
+                <textarea required name="message" placeholder='message' />
+                <button className='btn' type="submit" value="Send">Send</button>
                 <div>{result ? <Result /> : null}</div>
             </div>
         </form>
