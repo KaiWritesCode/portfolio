@@ -1,31 +1,107 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .row {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
-/* 
-.video {
+
+.header {
+  font-size: 2rem;
+  color: var(--subhead);
+}
+
+.textDiv p {
+  margin: 16px 0;
+}
+
+.discord {
   width: 80%;
-} */
+}
+.nftSpotter {
+  width: 90%;
+}
+
+.imageDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 2rem;
+  position: relative;
+  min-width: 450px;
+}
+
+.iconContainer > img {
+  margin: 0 6px;
+}
+
+.modal {
+  display: none;
+}
+
+.modal a {
+  margin: 5px;
+  background-color: #b7c9e0;
+}
+
+.imageDiv:hover .modal {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.301);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@media screen and (max-width: 1200px) {
+  .imageDiv {
+    min-width: 350px;
+    margin-right: 1rem;
+  }
+}
 
 @media screen and (max-width: 778px) {
-  .firstRow,
-  .secondRow {
+  .row {
     flex-direction: column;
   }
 
-  .video {
-    width: 100%;
+  .image {
+    margin-left: 0px;
+    width: 80%;
   }
 
-  .project_lg > img,
-  .project_sm > img {
-    height: auto;
+  .discord {
+    width: 70%;
   }
 
-  .project_lg {
-    width: 100%;
+  .textDiv {
+    margin-left: 0px;
   }
 
-  .project_sm {
+  .imageDiv {
+    margin: 0;
+    margin: 0 auto;
+    min-width: 0;
+  }
+
+  .btnGroup {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .row {
+    margin-bottom: 1rem;
+  }
+  .image {
     width: 100%;
   }
 }

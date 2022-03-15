@@ -31,7 +31,7 @@ export default function Blogs() {
             </div>
 
             <div className={styles.container}>
-                <a className={styles.blogBox} href="https://kaiwritescode.hashnode.dev/best-styling-librariesframeworks-to-use-with-react-2022" target="_blank" rel="noreferrer">
+                <a className={styles.blogBox} href="https://kaiwritescode.hashnode.dev/best-styling-libraries-for-react-2022">
                     <div className={styles.imgDiv}><img src="images/styling-blog.jpeg" alt="" /></div>
                     <div className={styles.textDiv}>
                         <h3 className={styles.heading}>Best Styling Libraries For React 2022</h3>

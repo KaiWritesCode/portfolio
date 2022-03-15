@@ -13,7 +13,7 @@ export default function HeroSection() {
                         asperiores numquam, molestias nesciunt quaerat sequi, repellat ab cum vel!
                         Nisi doloremque ratione pariatur eos rem? Maxime, quos ab!</p>
 
-                    <Link className={styles.btn} to="contact" smooth={true}>
+                    <Link className="btn" to="contact" smooth={true}>
                         Get in touch
                     </Link>
                 </div>
