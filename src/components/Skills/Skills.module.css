@@ -41,6 +41,10 @@
   margin-bottom: 14px;
 }
 
+.skillsDiv {
+  margin: 28px 0;
+}
+
 .cardHeader {
   font-weight: 500;
   font-size: 1.2rem;
@@ -85,10 +89,6 @@
   .leftCol,
   .rightCol {
     width: 100%;
-  }
-
-  .skillsDiv {
-    margin: 28px 0;
   }
 
   .cardTop {

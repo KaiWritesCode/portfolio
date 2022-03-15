@@ -10,8 +10,9 @@ export default function About() {
                 <img className={styles.gif} src="images/icons/computer-icon.gif" width="50" alt="" />
                 <div className={styles.cardHeader}>Website Creation</div>
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, necessitatibus.
-                Ipsum voluptatibus optio temporibus iste at consectetur repellendus? Exercitationem!</p>
+            <p>I build and maintain websites with modern technology being used in top companies. I
+                specialize in the Frontend, creating optimal visual experiences with HTML, CSS, and (mostly) React.
+            </p>
         </div>
     )
 
@@ -23,8 +24,9 @@ export default function About() {
                 <img className={styles.gif} src="images/icons/tool-icon.gif" width="50" alt="" />
                 <div className={styles.cardHeader}>Troubleshooting</div>
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, necessitatibus.
-                Ipsum voluptatibus optio temporibus iste at consectetur repellendus? Exercitationem!</p>
+            <p>I find the solutions to a variety of issues, with the problem-solving steps I developed throughout the years. Whether
+                it's a visual or logical problem, I will make the process operational again.
+            </p>
         </div>
     )
 
@@ -65,12 +67,22 @@ export default function About() {
 
 
                 <div className={styles.rightCol}>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in similique perferendis consequatur quidem veniam quia, natus asperiores repellat nulla eveniet aliquid et.</p>
+                    <p>I am a Frontend Developer, I bring ideas to life on the web through code.
+                        My ideal frontend technologies to use are React, Material UI, and in some cases Typescript. With almost every
+                        project, I create a Github repository and use Git commits regularly.
+                    </p>
+                    <br />
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Conse dignissimos dolor. Cum dolorum ad, deserunt tempore natus, veniam labore quidem mollitia est aliquid debitis nesciunt rem fuga consequatur!</p>
-                    <p> Minima atque vitae conseqe! Cumque obcaecati recusandae quo rerum velit odio alias quisquam tenetur expedita libero perspiciatis iusto, quod, in ducimus minima facere porro!</p>
-                    <p> Minima atque vitae conseqe! Cumque obcaecati recusandae quo rerum velit odio alias quisquam tenetur expedita libero perspiciatis iusto, quod, in ducimus minima facere porro!</p>
-                    <p> Minima atque vitae conseqe! Cumque obcaecati recusandae quo rerum velit odio alias quisquam tenetur expedita libero perspiciatis iusto, quod, in ducimus minima facere porro!</p>
+                    <p>I have knowledge of how the whole tech stack operates, from backend, APIS, and databases. For example, the
+                        projects listed above are built using cryptocurrency and NFT APIs, and the Chatapp is created using firebase.
+                        I am taking a class on Database management, I have experiences with queries using MySQL.
+                    </p>
+                    <br />
+                    <p>An important skill I bring to the table is my ability to problem solve. The steps I take to solve a problem include: I thoroughly analyze the problem we're facing,
+                        begin to brainstorm ideas/solutions, write psuedocode, then implement the code, and lastly optimize the code. An important post-solution step I take is
+                        reflecting on what I learned, in which I write down what I learned or say it out loud, this way I know what to do next time I encounter the issue.
+                    </p>
+
 
 
                 </div>
