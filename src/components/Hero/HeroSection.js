@@ -9,9 +9,9 @@ export default function HeroSection() {
             <div className={styles.flexCenter} >
                 <div className={styles.box}>
                     <h1>Greetings, I'm Kai</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque libero nisi,
-                        asperiores numquam, molestias nesciunt quaerat sequi, repellat ab cum vel!
-                        Nisi doloremque ratione pariatur eos rem? Maxime, quos ab!</p>
+                    <p>I'm a Frontend Web Developer that brings concepts to life through code. I love being
+                        involved in the tech industry, from the tech culture, seeing new innovations, and the unlimited potential technology has on our lives.
+                    </p>
 
                     <Link className="btn" to="contact" smooth={true}>
                         Get in touch

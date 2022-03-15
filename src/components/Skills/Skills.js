@@ -6,8 +6,8 @@ export default function About() {
     const webDevCard = (
         <div className={styles.card}>
             <div className={styles.cardTop}>
-                <img className={styles.pic} src="images/icons/computer-icon.png" width="50" alt="" />
-                <img className={styles.gif} src="images/icons/computer-icon.gif" width="50" alt="" />
+                <img className={styles.pic} src="images/icons/computer-icon.png" width="50" alt="computer icon" />
+                <img className={styles.gif} src="images/icons/computer-icon.gif" width="50" alt="computer gif" />
                 <div className={styles.cardHeader}>Website Creation</div>
             </div>
             <p>I build and maintain websites with modern technology being used in top companies. I
@@ -20,8 +20,8 @@ export default function About() {
     const webDevCard2 = (
         <div className={styles.card}>
             <div className={styles.cardTop}>
-                <img className={styles.pic} src="images/icons/tool-icon.png" width="50" alt="" />
-                <img className={styles.gif} src="images/icons/tool-icon.gif" width="50" alt="" />
+                <img className={styles.pic} src="images/icons/tool-icon.png" width="50" alt="tool icon" />
+                <img className={styles.gif} src="images/icons/tool-icon.gif" width="50" alt="tool gif" />
                 <div className={styles.cardHeader}>Troubleshooting</div>
             </div>
             <p>I find the solutions to a variety of issues, with the problem-solving steps I developed throughout the years. Whether
@@ -44,21 +44,21 @@ export default function About() {
                     </div>
                     <div className={styles.skillsDiv}>
                         <div className={styles.flexBox}>
-                            <img src="images/icons/html.png" width="50" alt="" />
-                            <img src="images/icons/css.png" width="50" alt="" />
-                            <img src="images/icons/javascript.png" width="50" alt="" />
-                            <img src="images/icons/react.png" width="50" alt="" />
-                            <img src="images/icons/typescript.png" width="50" alt="" />
-                            <img src="images/icons/sass.png" width="50" alt="" />
+                            <img src="images/icons/html.png" width="50" alt="html" title="HTML" />
+                            <img src="images/icons/css.png" width="50" alt="css" title="CSS" />
+                            <img src="images/icons/javascript.png" width="50" alt="javascript" title="Javascript" />
+                            <img src="images/icons/react.png" width="50" alt="React" title="React" />
+                            <img src="images/icons/typescript.png" width="50" alt="typescript" title="Typescript" />
+                            <img src="images/icons/sass.png" width="50" alt="sass" title="Sass" />
                         </div>
 
                         <div className={styles.flexBox}>
-                            <img src="images/icons/firebase.png" width="50" alt="" />
-                            <img src="images/icons/git.png" width="50" alt="" />
-                            <img src="images/icons/github.png" width="50" alt="" />
-                            <img src="images/icons/photoshop.png" width="50" alt="" />
-                            <img src="images/icons/node.png" width="50" alt="" />
-                            <img src="images/icons/mysql.png" width="50" alt="" />
+                            <img src="images/icons/firebase.png" width="50" alt="firebase" title="Firebase" />
+                            <img src="images/icons/git.png" width="50" alt="git" title="Git" />
+                            <img src="images/icons/github.png" width="50" alt="github" title="Github" />
+                            <img src="images/icons/photoshop.png" width="50" alt="photoshop" title="Photoshop" />
+                            <img src="images/icons/node.png" width="50" alt="node" title="Node" />
+                            <img src="images/icons/mysql.png" width="50" alt="mysql" title="MySQL" />
                         </div>
 
 

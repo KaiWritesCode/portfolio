@@ -46,28 +46,29 @@ export default function Contact() {
             <div className={styles.container}>
                 <div className={styles.leftCol}>
                     <h2 className={styles.heading}>Contact Me</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, aspernatur illo natus neque quis, eos quasi tenetur nulla
-                        dolorem esse vero recusandae optio laborum nesciunt quas dolorum molestiae nisi. Deleniti.</p>
+                    <p className={styles.paragraph}>If you would like to work on something together or have a quick chat, I am just one click away. Any
+                        feedback or comments are also welcomed, thanks!
+                    </p>
                     <div>
                         <ul className={styles.socialIcons}>
                             <li>
-                                <a href="https://github.com/therealkai">
+                                <a title="Github" target="_blank" rel="noreferrer" href="https://github.com/therealkai">
                                     <img className={styles.icon} src="/images/icons/github.png" alt="github" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/kaiwritescode">
+                                <a title="Twitter" target="_blank" rel="noreferrer" href="https://twitter.com/kaiwritescode">
                                     <img className={styles.icon} src="/images/icons/twitter-white.png" alt="twitter" />
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto: kbechdel8@gmail.com">
+                                <a title="Email" href="mailto: kbechdel8@gmail.com">
                                     <img className={styles.icon} src="/images/icons/email.png" alt="gmail" />
                                 </a>
                             </li>
                             <li>
-                                <a href="tel:3866902153">
-                                    <img className={styles.icon} src="/images/icons/phone-call.png" alt="gmail" />
+                                <a title="Phone" href="tel:3866902153">
+                                    <img className={styles.icon} src="/images/icons/phone-call.png" alt="phone" />
                                 </a>
                             </li>
                         </ul>

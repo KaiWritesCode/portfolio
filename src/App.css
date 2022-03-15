@@ -97,6 +97,10 @@ ul {
   will-change: transform;
 }
 
+.light-btn {
+  background-color: #18aa9ee8;
+}
+
 .btn:hover {
   color: #fff;
   background-color: #2f2f2fc0;

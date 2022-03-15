@@ -6,24 +6,24 @@ export default function Projects() {
     const modalOne = (
         <div className={styles.modal}>
             <div className='flex-center'>
-                <a href='https://github.com/TheRealKai/crypto-stats' className="btn">See Code</a>
-                <a href='https://therealkai.github.io/crypto-stats/' className="btn">See Live</a>
+                <a href='https://github.com/TheRealKai/crypto-stats' className="light-btn btn">See Code</a>
+                <a href='https://therealkai.github.io/crypto-stats/' className="light-btn btn">See Live</a>
             </div>
         </div>
     )
     const modalTwo = (
         <div className={styles.modal}>
             <div className='flex-center'>
-                <a href='https://github.com/TheRealKai/nft-spotter' className="btn">See Code</a>
-                <a href='https://therealkai.github.io/nft-spotter/' className="btn">See Live</a>
+                <a href='https://github.com/TheRealKai/nft-spotter' className="light-btn btn">See Code</a>
+                <a href='https://therealkai.github.io/nft-spotter/' className="light-btn btn">See Live</a>
             </div>
         </div>
     )
     const modalThree = (
         <div className={styles.modal}>
             <div className='flex-center'>
-                <a href='https://github.com/TheRealKai/discord-chat' className="btn">See Code</a>
-                <a href='https://therealkai.github.io/discord-chat/' className="btn">See Live</a>
+                <a href='https://github.com/TheRealKai/discord-chat' className="light-btn btn">See Code</a>
+                <a href='https://therealkai.github.io/discord-chat/' className="light-btn btn">See Live</a>
             </div>
         </div>
     )
@@ -37,7 +37,7 @@ export default function Projects() {
             <div className={styles.container}>
                 <div className={styles.row}>
                     <div className={styles.imageDiv}>
-                        <img className={styles.image} src="images/mockups/cryptostats.png" alt="" />
+                        <img className={styles.image} src="images/mockups/cryptostats.png" alt="Cryptostats project" />
                         {modalOne}
                     </div>
                     <div className={styles.textDiv}>
@@ -60,7 +60,7 @@ export default function Projects() {
 
                 <div className={styles.row}>
                     <div className={styles.imageDiv}>
-                        <img className={`${styles.image} ${styles.nftSpotter}`} src="images/mockups/nft-spotter-mockup.png" alt="" />
+                        <img className={`${styles.image} ${styles.nftSpotter}`} src="images/mockups/nft-spotter-mockup.png" alt="NFT Spotter project" />
                         {modalTwo}
                     </div>
                     <div className={styles.textDiv}>
@@ -81,7 +81,7 @@ export default function Projects() {
 
                 <div className={styles.row}>
                     <div className={styles.imageDiv}>
-                        <img className={`${styles.image} ${styles.discord}`} src="images/mockups/discord-iphone.png" alt="" />
+                        <img className={`${styles.image} ${styles.discord}`} src="images/mockups/discord-iphone.png" alt="Discord app project" />
                         {modalThree}
                     </div>
                     <div className={styles.textDiv}>

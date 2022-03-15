@@ -31,6 +31,10 @@
   margin: 0 12px;
 }
 
+.paragraph {
+  margin: 25px 0;
+}
+
 .contactForm textarea,
 input {
   background: #ffffff;

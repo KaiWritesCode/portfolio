@@ -15,9 +15,9 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
                     <span className={styles.logo}>
                         <a href="/">
                             <span className={styles.logo}>
-                                <img src="images/icons/palmtree-icon.png" width="75px" alt="" className={styles.pic} />
-                                <img src="images/icons/palmtree-icon.gif" width="75px" alt="" className={styles.gif} />
-                                <span>Kai's Portfolio</span>
+                                <img src="images/icons/palmtree-icon.png" width="75px" alt="Palm tree icon" className={styles.pic} />
+                                <img src="images/icons/palmtree-icon.gif" width="75px" alt="Palm tree gif" className={styles.gif} />
+                                <span>Kai Codes</span>
                             </span>
                         </a>
                     </span>
@@ -53,17 +53,17 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
 
             <ul className={styles.socialIcons}>
                 <li>
-                    <a href="https://github.com/therealkai" target="_blank" rel="noreferrer">
+                    <a title='Github' href="https://github.com/therealkai" target="_blank" rel="noreferrer">
                         <img className={styles.icon} src="/images/icons/github.png" alt="github" />
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/kaiwritescode" target="_blank" rel="noreferrer">
+                    <a title='Twitter' href="https://twitter.com/kaiwritescode" target="_blank" rel="noreferrer">
                         <img className={styles.icon} src="/images/icons/twitter-white.png" alt="twitter" />
                     </a>
                 </li>
                 <li>
-                    <a href="https://kaiwritescode.hashnode.dev/" target="_blank" rel="noreferrer">
+                    <a title="Hashnode" href="https://kaiwritescode.hashnode.dev/" target="_blank" rel="noreferrer">
                         <img className={styles.icon} src="/images/icons/hashnode.png" alt="hashnode" />
                     </a>
                 </li>
