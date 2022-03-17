@@ -42,8 +42,9 @@ export default function Projects() {
             <div className={styles.container}>
                 <motion.div
                     className={styles.row}
-                    initial={{ x: 1000, opacity: 0 }}
+                    initial={{ x: '=100%', opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
+                    amount={"some"}
                     viewport={{ once: true }}
                     transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1.2, delay: 1 }}
                 >
@@ -70,10 +71,11 @@ export default function Projects() {
 
                 <motion.div
                     className={styles.row}
-                    initial={{ x: -1000, opacity: 0 }}
+                    initial={{ x: '-100%', opacity: 0 }}
+                    amount={"some"}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: true }}
-                    transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1.3, delay: 1 }}
+                    transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1, delay: 0.2 }}
                 >
                     <div className={styles.imageDiv}>
                         <img className={`${styles.image} ${styles.nftSpotter}`} src="images/mockups/nft-spotter-mockup.png" alt="NFT Spotter project" />
@@ -97,10 +99,11 @@ export default function Projects() {
 
                 <motion.div
                     className={styles.row}
-                    initial={{ x: 1000, opacity: 0 }}
+                    initial={{ x: '-100%', opacity: 0 }}
+                    amount={"some"}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: true }}
-                    transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1, delay: 1 }}
+                    transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1, delay: 0.2 }}
                 >
                     <div className={styles.imageDiv}>
                         <img className={`${styles.image} ${styles.discord}`} src="images/mockups/discord-iphone.png" alt="Discord app project" />

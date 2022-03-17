@@ -108,25 +108,3 @@
     width: 100%;
   }
 }
-
-/* animations  */
-
-.animateOne,
-animateTwo,
-animateThree {
-  animation: fadeInTop 1.2s both;
-  -webkit-animation: fadeInTop 1.2s both;
-  -moz-animation: fadeInTop 1.2s both;
-  -o-animation: fadeInTop 1.2s both;
-}
-
-@keyframes fadeInTop {
-  0% {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
