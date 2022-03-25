@@ -36,7 +36,7 @@ export default function HeroSection() {
                     transition={{ type: 'spring', duration: 1, delay: 0.6, bounce: 0.4 }}
                 >
 
-                    <img className={styles.heroImg} src="/images/computer.png" alt="" />
+                    <img className={styles.heroImg} src="/images/kai.png" alt="" />
 
                 </motion.div>
             </div>

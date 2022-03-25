@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Skills.module.css'
+import { motion } from 'framer-motion'
 
 export default function About() {
 
@@ -37,7 +38,14 @@ export default function About() {
 
             <div className={styles.flexCenter}>
 
-                <div className={styles.leftCol}>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    amount={"some"}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1, delay: 0.2 }}
+                    className={styles.leftCol}>
                     <div className={styles.cardContainer}>
                         {webDevCard}
                         {webDevCard2}
@@ -63,10 +71,18 @@ export default function About() {
 
 
                     </div>
-                </div>
+                </motion.div>
 
 
-                <div className={styles.rightCol}>
+                <motion.div
+
+                    initial={{ opacity: 0, x: 50 }}
+                    amount={"some"}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1, delay: 0.2 }}
+                    className={styles.leftCol}>
+
                     <p>I am a Frontend Developer, I bring ideas to life on the web through code.
                         My ideal frontend technologies to use are React, Material UI, and in some cases Typescript. With almost every
                         project, I create a Github repository and use Git commits regularly.
@@ -83,11 +99,11 @@ export default function About() {
                         reflecting on what I learned, in which I write down what I learned or say it out loud, this way I know what to do next time I encounter the issue.
                     </p>
 
+                </motion.div>
 
-
-                </div>
 
             </div>
+
         </section >
     )
 }

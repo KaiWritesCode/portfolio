@@ -1,11 +1,17 @@
 import React from 'react'
 import styles from './Blogs.module.css'
-
+import { motion } from 'framer-motion'
 export default function Blogs() {
     return (
         <section id='blogs'>
             <h2>Blogs</h2>
-            <div className={styles.container}>
+            <motion.div
+                initial={{ opacity: 0, y: 100 }}
+                amount={"some"}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 0.8 }}
+                className={styles.container}>
                 <a className={styles.blogBox} href="https://kaiwritescode.hashnode.dev/react-props-guide" target="_blank" rel="noreferrer">
                     <div className={styles.imgDiv}><img src="images/react-props-blog.jpeg" alt="React props guide" /></div>
                     <div className={styles.textDiv}>
@@ -16,9 +22,15 @@ export default function Blogs() {
                         <p className={styles.date}>Feb 13, 2022</p>
                     </div>
                 </a>
-            </div>
+            </motion.div>
 
-            <div className={styles.container}>
+            <motion.div
+                initial={{ opacity: 0, y: 100 }}
+                amount={"some"}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 0.8 }}
+                className={styles.container}>
                 <a className={styles.blogBox} href="https://kaiwritescode.hashnode.dev/how-to-use-git-in-your-next-project" target="_blank" rel="noreferrer">
                     <div className={styles.imgDiv}><img src="images/git-blog.jpeg" alt="Git basics blog" /></div>
                     <div className={styles.textDiv}>
@@ -28,9 +40,15 @@ export default function Blogs() {
                         <p className={styles.date}>Feb 5, 2022</p>
                     </div>
                 </a>
-            </div>
+            </motion.div>
 
-            <div className={styles.container}>
+            <motion.div
+                initial={{ opacity: 0, y: 100 }}
+                amount={"some"}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 0.8 }}
+                className={styles.container}>
                 <a className={styles.blogBox} href="https://kaiwritescode.hashnode.dev/best-styling-libraries-for-react-2022">
                     <div className={styles.imgDiv}><img src="images/styling-blog.jpeg" alt="Top styling libraries blog" /></div>
                     <div className={styles.textDiv}>
@@ -40,7 +58,7 @@ export default function Blogs() {
                         <p className={styles.date}>Jan 14, 2022</p>
                     </div>
                 </a>
-            </div>
+            </motion.div>
         </section>
     )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Project.module.css'
 import '../../App.css'
-import { motion, Variants } from "framer-motion"
+import { motion } from "framer-motion"
 
 export default function Projects() {
 
@@ -37,16 +37,17 @@ export default function Projects() {
     return (
 
         <section id='projects'>
-            <h2 size="lg">Projects</h2>
+            <h2>Projects</h2>
 
             <div className={styles.container}>
+
                 <motion.div
                     className={styles.row}
-                    initial={{ x: '=100%', opacity: 0 }}
-                    whileInView={{ x: 0, opacity: 1 }}
+                    initial={{ x: '-100%', opacity: 0 }}
                     amount={"some"}
+                    whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: true }}
-                    transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1.2, delay: 1 }}
+                    transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1, delay: 0.2 }}
                 >
                     <div className={styles.imageDiv}>
                         <img className={styles.image} src="images/mockups/cryptostats.png" alt="Cryptostats project" />
@@ -68,6 +69,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </motion.div>
+
 
                 <motion.div
                     className={styles.row}
