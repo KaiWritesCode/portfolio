@@ -12,7 +12,7 @@ export default function About() {
                 <div className={styles.cardHeader}>Website Creation</div>
             </div>
             <p>I build and maintain websites with modern technology being used in top companies. I
-                specialize in the Frontend, creating optimal visual experiences with HTML, CSS, and (mostly) React.
+                specialize in the Frontend, creating optimal visual experiences with HTML, CSS, Javascript and (mostly) React.
             </p>
         </div>
     )
@@ -84,17 +84,18 @@ export default function About() {
                     className={styles.leftCol}>
 
                     <p>I am a Frontend Developer, I bring ideas to life on the web through code.
-                        My ideal frontend technologies to use are React, Material UI, and in some cases Typescript. With almost every
+                        My ideal frontend technology to use is React. With almost every
                         project, I create a Github repository and use Git commits regularly.
                     </p>
                     <br />
 
-                    <p>I have knowledge of how the whole tech stack operates, from backend, APIS, and databases. For example, the
-                        projects listed above are built using cryptocurrency and NFT APIs, and the Chatapp is created using firebase.
-                        I am taking a class on Database management, I have experiences with queries using MySQL.
+                    <p>I have knowledge of how the whole tech stack operates, from backend, APIS, and databases. I have scratched the surface
+                        of node.js by creating basic CRUD apps, and also have experience making queries using MySQL. The
+                        projects listed above are built using cryptocurrency and NFT APIs, and the Chatapp is created using Firebase.
+
                     </p>
                     <br />
-                    <p>An important skill I bring to the table is my ability to problem solve. The steps I take to solve a problem include: I thoroughly analyze the problem we're facing,
+                    <p>An important skill I bring to the table is my ability to problem solve. The steps I take to solve a problem include: thoroughly analyzing the problem at hand,
                         begin to brainstorm ideas/solutions, write psuedocode, then implement the code, and lastly optimize the code. An important post-solution step I take is
                         reflecting on what I learned, in which I write down what I learned or say it out loud, this way I know what to do next time I encounter the issue.
                     </p>

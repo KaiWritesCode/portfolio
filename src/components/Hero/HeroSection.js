@@ -5,6 +5,9 @@ import { motion } from 'framer-motion'
 
 
 export default function HeroSection() {
+
+
+
     return (
         <section id={styles.heroSection}>
             <div className={styles.flexCenter} >
@@ -17,7 +20,7 @@ export default function HeroSection() {
                 >
                     <div >
                         <h1>Greetings, I'm Kai</h1>
-                        <p>I'm a Frontend Web Developer that brings concepts to life through code. I love being
+                        <p>I'm a Frontend Web Developer based in Florida, that brings concepts to life through code. I love being
                             involved in the tech industry, from the tech culture, seeing new innovations, and the unlimited potential technology has on our lives.
                         </p>
 
@@ -36,7 +39,7 @@ export default function HeroSection() {
                     transition={{ type: 'spring', duration: 1, delay: 0.6, bounce: 0.4 }}
                 >
 
-                    <img className={styles.heroImg} src="/images/kai.png" alt="" />
+                    <img className={styles.heroImg} src="/images/kai-test.png" alt="" />
 
                 </motion.div>
             </div>

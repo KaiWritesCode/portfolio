@@ -31,9 +31,6 @@ export default function Projects() {
         </div>
     )
 
-
-
-
     return (
 
         <section id='projects'>
@@ -73,7 +70,7 @@ export default function Projects() {
 
                 <motion.div
                     className={styles.row}
-                    initial={{ x: '-100%', opacity: 0 }}
+                    initial={{ x: '100%', opacity: 0 }}
                     amount={"some"}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: true }}
