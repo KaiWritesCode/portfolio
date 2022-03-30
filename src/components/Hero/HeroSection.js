@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Hero.module.css'
 import { Link } from 'react-scroll'
 import { motion } from 'framer-motion'
@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function HeroSection() {
 
-
+    const [loaded, setLoaded] = useState(false)
 
     return (
         <section id={styles.heroSection}>
@@ -30,17 +30,21 @@ export default function HeroSection() {
                     </div>
                 </motion.div>
 
+                {loaded ? null : <div className={styles.test}></div>}
 
                 <motion.div
                     className={styles.box}
+                    style={{ display: loaded ? 'block' : 'none' }}
                     initial={{ x: '100%', opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ type: 'spring', duration: 1, delay: 0.6, bounce: 0.4 }}
                 >
-
-                    <img className={styles.heroImg} src="/images/kai-test.png" alt="" />
-
+                    <img className={styles.heroImg}
+                        alt="Kai profile"
+                        src="/images/kai-profile.png"
+                        onLoad={() => setLoaded(true)}
+                    />
                 </motion.div>
             </div>
 
