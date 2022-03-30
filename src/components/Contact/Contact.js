@@ -52,7 +52,7 @@ export default function Contact() {
                     <div>
                         <ul className={styles.socialIcons}>
                             <li>
-                                <a title="Github" target="_blank" rel="noreferrer" href="https://github.com/therealkai">
+                                <a title="Github" target="_blank" rel="noreferrer" href="https://github.com/kaiwritescode">
                                     <img className={styles.icon} src="/images/icons/github.png" alt="github" />
                                 </a>
                             </li>
