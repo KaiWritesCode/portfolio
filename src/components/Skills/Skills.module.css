@@ -89,6 +89,7 @@
   .leftCol,
   .rightCol {
     width: 100%;
+    margin: 0;
   }
 
   .cardTop {
