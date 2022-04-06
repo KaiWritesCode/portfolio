@@ -52,7 +52,7 @@ export default function Projects() {
                     </div>
                     <div className={styles.textDiv}>
                         <h3 className={styles.header}>Crypto Stats</h3>
-                        <p>Crypto Stats is a web app that displays information about the Crypto Currency market. Includes
+                        <p>Crypto Stats is a web app that displays information about the cryptocurrency market. Includes
                             useful information about prices, percent changes, ranks, marketcap, and sparklines. Created with
                             Coingecko, Coinmarketcap, and Etherscan Apis.
                         </p>

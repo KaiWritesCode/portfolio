@@ -7,9 +7,9 @@ export default function Blogs() {
             <h2>Blogs</h2>
 
             <motion.div
-                initial={{ opacity: 0, y: 100 }}
+                initial={{ y: '100%', opacity: 0 }}
                 amount={"some"}
-                whileInView={{ opacity: 1, y: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 0.8 }}
                 className={styles.container}>
@@ -26,9 +26,9 @@ export default function Blogs() {
 
 
             <motion.div
-                initial={{ opacity: 0, y: 100 }}
+                initial={{ y: '100%', opacity: 0 }}
                 amount={"some"}
-                whileInView={{ opacity: 1, y: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 0.8 }}
                 className={styles.container}>
@@ -45,9 +45,9 @@ export default function Blogs() {
             </motion.div>
 
             <motion.div
-                initial={{ opacity: 0, y: 100 }}
+                initial={{ y: '100%', opacity: 0 }}
                 amount={"some"}
-                whileInView={{ opacity: 1, y: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 0.8 }}
                 className={styles.container}>

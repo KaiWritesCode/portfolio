@@ -18,11 +18,11 @@ export default function Navbar() {
         setOpenMenu(false);
     };
 
-    useEffect(() => {
-        openMenu
-            ? (document.body.style.overflow = "hidden")
-            : (document.body.style.overflow = "visible");
-    }, [openMenu]);
+    // useEffect(() => {
+    //     openMenu
+    //         ? (document.body.style.overflow = "hidden")
+    //         : (document.body.style.overflow = "visible");
+    // }, [openMenu]);
 
 
 

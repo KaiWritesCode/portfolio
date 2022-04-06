@@ -40,9 +40,9 @@ export default function About() {
 
 
                 <motion.div
-                    initial={{ opacity: 0, y: 50 }}
+                    initial={{ y: '50%', opacity: 0 }}
                     amount={"some"}
-                    whileInView={{ opacity: 1, y: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1, delay: 0.2 }}
                     className={styles.leftCol}>
@@ -76,9 +76,9 @@ export default function About() {
 
                 <motion.div
 
-                    initial={{ opacity: 0, x: 50 }}
+                    initial={{ x: '50%', opacity: 0 }}
                     amount={"some"}
-                    whileInView={{ opacity: 1, x: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1, delay: 0.2 }}
                     className={styles.leftCol}>
