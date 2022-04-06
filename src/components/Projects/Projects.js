@@ -6,30 +6,8 @@ import { motion } from "framer-motion"
 export default function Projects() {
 
 
-    const modalOne = (
-        <div className={styles.modal}>
-            <div className='flex-center'>
-                <a target="_blank" rel="noreferrer" href='https://github.com/kaiwritescode/crypto-stats' className="light-btn btn">See Code</a>
-                <a target="_blank" rel="noreferrer" href='https://kaiwritescode.github.io/crypto-stats/' className="light-btn btn">See Live</a>
-            </div>
-        </div>
-    )
-    const modalTwo = (
-        <div className={styles.modal}>
-            <div className='flex-center'>
-                <a target="_blank" rel="noreferrer" href='https://github.com/kaiwritescode/nft-spotter' className="light-btn btn">See Code</a>
-                <a target="_blank" rel="noreferrer" href='https://kaiwritescode.github.io/nft-spotter/' className="light-btn btn">See Live</a>
-            </div>
-        </div>
-    )
-    const modalThree = (
-        <div className={styles.modal}>
-            <div className='flex-center'>
-                <a target="_blank" rel="noreferrer" href='https://github.com/kaiwritescode/discord-chat' className="light-btn btn">See Code</a>
-                <a target="_blank" rel="noreferrer" href='https://kaiwritescode.github.io/discord-chat/' className="light-btn btn">See Live</a>
-            </div>
-        </div>
-    )
+
+
 
     return (
 
@@ -48,7 +26,6 @@ export default function Projects() {
                 >
                     <div className={styles.imageDiv}>
                         <img className={styles.image} src="images/mockups/cryptostats.png" alt="Cryptostats project" />
-                        {modalOne}
                     </div>
                     <div className={styles.textDiv}>
                         <h3 className={styles.header}>Crypto Stats</h3>
@@ -64,6 +41,10 @@ export default function Projects() {
                             <img src="images/icons/api.png" width="40" title='API' alt="api" />
                             <img src="images/icons/react-router.png" width="40" title='React router' alt="React router" />
                         </div>
+                        <div className={styles.btnGroup}>
+                            <a target="_blank" rel="noreferrer" href='https://github.com/kaiwritescode/crypto-stats' className="light-btn btn">See Code</a>
+                            <a target="_blank" rel="noreferrer" href='https://kaiwritescode.github.io/crypto-stats/' className="light-btn btn">See Live</a>
+                        </div>
                     </div>
                 </motion.div>
 
@@ -78,7 +59,6 @@ export default function Projects() {
                 >
                     <div className={styles.imageDiv}>
                         <img className={`${styles.image} ${styles.nftSpotter}`} src="images/mockups/nft-spotter-mockup.png" alt="NFT Spotter project" />
-                        {modalTwo}
                     </div>
                     <div className={styles.textDiv}>
                         <h3 className={styles.header}>NFT Spotter</h3>
@@ -93,6 +73,10 @@ export default function Projects() {
                             <img src="images/icons/api.png" width="40" title='API' alt="api" />
                             <img src="images/icons/react-router.png" width="40" title='React router' alt="React router" />
                         </div>
+                        <div className={styles.btnGroup}>
+                            <a target="_blank" rel="noreferrer" href='https://github.com/kaiwritescode/nft-spotter' className="light-btn btn">See Code</a>
+                            <a target="_blank" rel="noreferrer" href='https://kaiwritescode.github.io/nft-spotter/' className="light-btn btn">See Live</a>
+                        </div>
                     </div>
                 </motion.div>
 
@@ -106,7 +90,6 @@ export default function Projects() {
                 >
                     <div className={styles.imageDiv}>
                         <img className={`${styles.image} ${styles.discord}`} src="images/mockups/discord-iphone.png" alt="Discord app project" />
-                        {modalThree}
                     </div>
                     <div className={styles.textDiv}>
                         <h3 className={styles.header}>Discord Chat</h3>
@@ -122,7 +105,11 @@ export default function Projects() {
                             <img src="images/icons/firebase.png" width="40" title='Firebase' alt="Firebase" />
                             <img src="images/icons/react-router.png" width="40" title='React router' alt="React router" />
                         </div>
+                        <div className={styles.btnGroup}>
 
+                            <a target="_blank" rel="noreferrer" href='https://github.com/kaiwritescode/discord-chat' className="light-btn btn">See Code</a>
+                            <a target="_blank" rel="noreferrer" href='https://kaiwritescode.github.io/discord-chat/' className="light-btn btn">See Live</a>
+                        </div>
                     </div>
 
 

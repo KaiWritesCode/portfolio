@@ -18,14 +18,7 @@
 }
 
 .textDiv p {
-  margin: 16px 0;
-}
-
-.discord {
-  width: 80%;
-}
-.nftSpotter {
-  width: 90%;
+  margin: 8px 0;
 }
 
 .imageDiv {
@@ -37,31 +30,37 @@
   min-width: 450px;
 }
 
+.discord {
+  width: 480px;
+}
+
+.nftSpotter {
+  width: 500px;
+}
+
+
+.image {
+  max-width: 550px;
+}
+
+.textDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .iconContainer > img {
   margin: 0 6px;
 }
 
-.modal {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
+.btnGroup {
+  margin: 10px 0;
 }
 
-.modal a {
-  margin: 5px;
-}
-
-.imageDiv:hover .modal {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  background-color: rgba(0, 0, 0, 0.301);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 0s, opacity 0.4s linear;
+.btnGroup a {
+  margin-right: 20px;
+  width: 140px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -69,6 +68,13 @@
     min-width: 350px;
     margin-right: 1rem;
   }
+  .image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 778px) {
+
 }
 
 @media screen and (max-width: 778px) {

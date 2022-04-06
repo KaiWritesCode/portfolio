@@ -54,7 +54,7 @@
 /* Card Hover Effects  */
 
 .card:hover {
-  box-shadow: rgba(35, 143, 149, 0.082) 0px 28px 40px 0px;
+  box-shadow: rgba(35, 143, 149, 0.027) 0px 18px 20px 0px;
   border-color: #33bcc3;
 }
 

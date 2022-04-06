@@ -52,7 +52,7 @@ section {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1280px;
   padding: 0 2.5rem;
   margin: 0 auto;
 }
@@ -97,9 +97,7 @@ ul {
   will-change: transform;
 }
 
-.light-btn {
-  background-color: #18aa9ee8;
-}
+
 
 .btn:hover {
   color: #fff;
