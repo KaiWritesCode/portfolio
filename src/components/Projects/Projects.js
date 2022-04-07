@@ -106,7 +106,6 @@ export default function Projects() {
                             <img src="images/icons/react-router.png" width="40" title='React router' alt="React router" />
                         </div>
                         <div className={styles.btnGroup}>
-
                             <a target="_blank" rel="noreferrer" href='https://github.com/kaiwritescode/discord-chat' className="light-btn btn">See Code</a>
                             <a target="_blank" rel="noreferrer" href='https://kaiwritescode.github.io/discord-chat/' className="light-btn btn">See Live</a>
                         </div>

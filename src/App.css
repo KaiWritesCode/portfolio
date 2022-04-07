@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
 :root {
   --text: #b7c9e0;
   --backgroundColor: #1b263b;
@@ -117,12 +118,15 @@ ul {
 .menu-icon {
   display: none;
 }
+
 .close-icon {
   display: none;
 }
+
 .closed-nav-links {
   opacity: 0;
 }
+
 .nav-modal {
   display: none;
 }
@@ -137,14 +141,17 @@ ul {
   .wrapper {
     padding: 0 2rem;
   }
+
   /* Mobile Navbar   */
   .menu-icon,
   .close-icon {
     margin-right: 15px;
   }
+
   .no-menu {
     display: none;
   }
+
   .active-menu {
     display: block;
   }
@@ -153,7 +160,7 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: var(--backgroundColor);
-    height: 100vh;
+    height: 100%;
     width: 100%;
     z-index: 1000;
     position: fixed;
