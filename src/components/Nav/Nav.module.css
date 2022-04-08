@@ -47,7 +47,7 @@
 
 .navLinks li a {
   margin: 0 20px 0;
-  padding-bottom: 3px;
+  padding-bottom: 8px;
   color: white;
   position: relative;
 }
@@ -71,34 +71,36 @@
 
 /* Hover Effect  */
 
-.navLinks li a:hover {
+
+.navLinks a,
+.navLinks a:after,
+.navLinks a:before {
+  transition: all .5s;
+}
+
+.navLinks a:hover {
+  color: #31c2b6;
   cursor: pointer;
 }
 
-.navLinks li a::before {
+.navLinks a:after {
   position: absolute;
-  content: "";
-  left: 0;
   bottom: 0;
-  height: 3px;
-  width: 100%;
-  background: var(--accentColor);
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: right;
-  transform-origin: right;
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
-  transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
 }
 
-.navLinks li a:hover::before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-  -webkit-transform-origin: left;
-  transform-origin: left;
+.navLinks a:hover:after {
+  width: 100%;
 }
+
+
 
 @media screen and (max-width: 778px) {
   .container {
