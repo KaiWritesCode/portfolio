@@ -10,6 +10,7 @@
 .cardContainer {
   display: flex;
 }
+
 .flexCenter {
   display: flex;
   justify-content: center;
@@ -24,7 +25,7 @@
 .card {
   border: 2px solid var(--accentColor);
   border-radius: 10px;
-  padding: 1rem;
+  padding: 1rem 0.75rem;
   display: flex;
   flex-direction: column;
   transition: all 0.16s ease-in;
@@ -96,7 +97,7 @@
     justify-content: start;
   }
 
-  .cardTop > img {
+  .cardTop>img {
     margin-right: 8px;
   }
 }

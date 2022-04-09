@@ -12,7 +12,7 @@ export default function About() {
                 <div className={styles.cardHeader}>Website Creation</div>
             </div>
             <p>I build and maintain websites with modern technology being used in top companies. I
-                specialize in the Frontend, creating optimal visual experiences with HTML, CSS, Javascript and (mostly) React.
+                specialize in the Frontend, creating optimal visual experiences with HTML, CSS, Javascript and React.
             </p>
         </div>
     )
@@ -21,12 +21,12 @@ export default function About() {
     const webDevCard2 = (
         <div className={styles.card}>
             <div className={styles.cardTop}>
-                <img className={styles.pic} src="images/icons/tool-icon.png" width="50" alt="tool icon" />
-                <img className={styles.gif} src="images/icons/tool-icon.gif" width="50" alt="tool gif" />
-                <div className={styles.cardHeader}>Troubleshooting</div>
+                <img className={styles.pic} src="images/icons/edit-doc.png" width="50" alt="tool icon" />
+                <img className={styles.gif} src="images/icons/edit-doc.gif" width="50" alt="tool gif" />
+                <div className={styles.cardHeader}>Website Design</div>
             </div>
-            <p>I find the solutions to a variety of issues, with the problem-solving steps I developed throughout the years. Whether
-                it's a visual or logical problem, I will make the process operational again.
+            <p>I create aesthetically pleasing designs with responsive layouts. I have a solid
+                understanding of the structure and key principles of how the website should look and feel.
             </p>
         </div>
     )
@@ -84,14 +84,14 @@ export default function About() {
                     className={styles.leftCol}>
 
                     <p>I am a Frontend Developer, I bring ideas to life on the web through code.
-                        My ideal frontend technology to use is React. With almost every
-                        project, I create a Github repository and use Git commits regularly.
+                        My ideal frontend technology to use is React which I pair
+                        a Github repository, use commits regularly, then launch to Github pages or Netlify.
                     </p>
                     <br />
 
                     <p>I have knowledge of how the whole tech stack operates, from backend, APIS, and databases. I have scratched the surface
                         of node.js by creating basic CRUD apps, and also have experience making queries using MySQL. The
-                        projects listed above are built using cryptocurrency and NFT APIs, and the Chatapp is created using Firebase.
+                        projects listed above demostrate my ability to work with APIs, and the chat app shows my skills using a BAAS, Firebase.
 
                     </p>
                     <br />
