@@ -62,6 +62,11 @@ export default function Contact() {
                                 </a>
                             </li>
                             <li>
+                                <a title="Linkin" href="https://www.linkedin.com/in/kai-bechdel/" target="blank" rel="noreferrer">
+                                    <img className={styles.icon} src="/images/icons/linkedin.png" alt="linkin" />
+                                </a>
+                            </li>
+                            <li>
                                 <a title="Email" href="mailto: kbechdel8@gmail.com">
                                     <img className={styles.icon} src="/images/icons/email.png" alt="gmail" />
                                 </a>

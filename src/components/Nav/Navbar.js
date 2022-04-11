@@ -74,12 +74,12 @@ export default function Navbar() {
                             </li>
                             <li>
                                 <a title="Twitter" href="https://twitter.com/kaiwritescode" target="blank" rel="noreferrer">
-                                    <img className={styles.icon} src="/images/icons/twitter-white.png" alt="twitter" />
+                                    <img className={styles.icon} src="/images/icons/twitter-white.png" width="80%" alt="twitter" />
                                 </a>
                             </li>
                             <li>
-                                <a title="Hashnode" href="https://kaiwritescode.hashnode.dev/" target="blank" rel="noreferrer">
-                                    <img className={styles.icon} src="/images/icons/hashnode.png" alt="hashnode" />
+                                <a title="Linkin" href="https://www.linkedin.com/in/kai-bechdel/" target="blank" rel="noreferrer">
+                                    <img className={styles.icon} src="/images/icons/linkedin.png" alt="linkin" />
                                 </a>
                             </li>
                         </ul>
