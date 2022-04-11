@@ -1,17 +1,13 @@
 import React, { useState } from 'react'
-import emailjs, { init } from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 import styles from './Contact.module.css'
 
 export default function Contact() {
     const [result, showResult] = useState(false)
 
-    init("R2aEz_5aP94RSmXPI");
-
-
     const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('service_f02b2zk', 'template_r43zu4z', e.target, 'R2aEz_5aP94RSmXPI')
+        emailjs.sendForm("service_deyilto", "template_3b3uc6s", e.target, "iArZx-PXFNMedq99d")
             .then((result) => {
                 console.log(result.text);
             }, (error) => {

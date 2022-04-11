@@ -69,6 +69,7 @@ export default function Projects() {
                             <img src="images/icons/react.png" title='React.js' width="40" alt="react" />
                             <img src="images/icons/html.png" width="40" title='HTML' alt="html" />
                             <img src="images/icons/css.png" width="40" title='CSS' alt="css" />
+                            <img src="images/icons/typescript.png" width="40" title='Typescript' alt="typescript" />
                             <img src="images/icons/bootstrap.png" width="40" height="40" title='React Bootstrap' alt="material ui" />
                             <img src="images/icons/api.png" width="40" title='API' alt="api" />
                             <img src="images/icons/react-router.png" width="40" title='React router' alt="React router" />

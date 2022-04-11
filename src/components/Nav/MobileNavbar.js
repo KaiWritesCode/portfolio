@@ -63,8 +63,8 @@ export default function MobileNavbar({ openMenu, closeNavMenu }) {
                     </a>
                 </li>
                 <li>
-                    <a title="Hashnode" href="https://kaiwritescode.hashnode.dev/" target="_blank" rel="noreferrer">
-                        <img className={styles.icon} src="/images/icons/hashnode.png" alt="hashnode" />
+                    <a title="Linkin" href="https://www.linkedin.com/in/kai-bechdel/" target="blank" rel="noreferrer">
+                        <img className={styles.icon} src="/images/icons/linkedin.png" alt="linkin" />
                     </a>
                 </li>
             </ul>
