@@ -7,6 +7,10 @@
   font-size: 1.1rem;
 }
 
+.textDiv {
+  margin-right: 40px;
+}
+
 .flexCenter {
   display: flex;
   justify-content: center;
@@ -56,5 +60,10 @@
 
   .box {
     width: 100%;
+  }
+
+  .textDiv {
+    margin-bottom: 30px;
+    margin-right: 0;
   }
 }

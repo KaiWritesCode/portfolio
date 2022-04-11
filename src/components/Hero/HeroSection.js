@@ -18,7 +18,7 @@ export default function HeroSection() {
                     viewport={{ once: true }}
                     transition={{ type: 'spring', duration: 1, delay: 0.5, bounce: 0.4 }}
                 >
-                    <div >
+                    <div className={styles.textDiv}>
                         <h1>Greetings, I'm Kai</h1>
                         <p>I'm a Frontend Web Developer based in Florida, that brings concepts to life through code. Consistently involved
                             in the tech industry, from coding, exploring technology innovations, and seeking open source projects.
@@ -40,7 +40,7 @@ export default function HeroSection() {
                 >
                     <img className={styles.heroImg}
                         alt="Kai profile"
-                        src="/images/kai-profile.png"
+                        src="/images/laptop-profile.png"
                         onLoad={() => setLoaded(true)}
                     />
                 </motion.div>
