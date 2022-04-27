@@ -4,7 +4,7 @@
 
 .blogBox {
   display: flex;
-  border: 2px solid var(--accentColor);
+  border: 2px solid var(--accent);
   border-radius: 10px;
   padding: 1rem 1.5rem;
   justify-content: space-between;
