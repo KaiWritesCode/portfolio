@@ -4,9 +4,30 @@
 :root {
   --text: #b7c9e0;
   --backgroundColor: #1b263b;
-  --accentColor: #28979c;
-  --subhead: white;
-  --heading: white;
+  --accent: #28979c;
+}
+
+/* Theme toggle  */
+
+.theme-dark {
+  --text: #ffffff;
+  --secondaryText: #b7c9e0;
+  --background: #1b263b;
+  --light-background: #586f7c;
+  --button-border: #b8dbd9;
+}
+
+.theme-light {
+  --text: #000000;
+  --secondaryText: #186f74;
+  --background: #dbe7e4;
+  --light-background: #eddcd2;
+  --button-border: #5e4b56;
+}
+
+nav {
+  background-color: var(--dark-background);
+  color: var(--light-text);
 }
 
 * {
@@ -18,18 +39,18 @@
 
 body {
   overflow-x: hidden;
-  background-color: var(--backgroundColor);
-  color: #b7c9e0;
+  background-color: var(--background);
+  color: var(--text);
 }
 
 a {
   text-decoration: none;
-  color: #b7c9e0;
+  color: var(--text);
 }
 
 p {
   line-height: 1.6;
-  color: #b7c9e0;
+  color: var(--secondaryText);
 }
 
 h1 {
@@ -78,7 +99,7 @@ ul {
 .btn {
   appearance: none;
   background-color: #31c2b6;
-  border: 2px solid #2e2e2e;
+  border: 2px solid transparent;
   border-radius: 5px;
   box-sizing: border-box;
   color: #3b3b3b;
@@ -98,8 +119,6 @@ ul {
   touch-action: manipulation;
   will-change: transform;
 }
-
-
 
 .btn:hover {
   color: #fff;

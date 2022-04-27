@@ -4,11 +4,14 @@ import MobileNavbar from './MobileNavbar'
 import styles from './Nav.module.css'
 import "../../App.css"
 import { Link } from 'react-scroll'
+import { setTheme } from '../../utils/themes'
 
 
 
 export default function Navbar() {
     let [openMenu, setOpenMenu] = useState(false);
+    const [togClass, setTogClass] = useState('dark')
+    let theme = localStorage.getItem('theme')
 
     const openNavMenu = () => {
         setOpenMenu(true);
@@ -18,11 +21,32 @@ export default function Navbar() {
         setOpenMenu(false);
     };
 
+    const handleOnClick = () => {
+        if (localStorage.getItem('theme') === 'theme-dark') {
+            setTheme('theme-light');
+            setTogClass('light')
+        } else {
+            setTheme('theme-dark')
+            setTogClass('dark')
+        }
+    }
+
+    useEffect(() => {
+        if (localStorage.getItem('theme') === 'theme-dark') {
+            setTogClass('dark')
+        } else if (localStorage.getItem('theme') === 'theme-light') {
+            setTogClass('light')
+        }
+    }, [theme])
+
     useEffect(() => {
         openMenu
             ? (document.body.style.overflow = "hidden")
             : (document.body.style.overflow = "visible");
     }, [openMenu]);
+
+
+
 
 
 
@@ -78,13 +102,24 @@ export default function Navbar() {
                                 </a>
                             </li>
                             <li>
-                                <a title="Linkin" href="https://www.linkedin.com/in/kai-bechdel/" target="blank" rel="noreferrer">
+                                <a title="Linkedin" href="https://www.linkedin.com/in/kai-bechdel/" target="blank" rel="noreferrer">
                                     <img className={styles.icon} src="/images/icons/linkedin.png" alt="linkin" />
                                 </a>
                             </li>
                         </ul>
                     </div>
+                    <div className={styles.switchContainer}>
+                        {
+                            togClass === "light" ?
+                                <input type="checkbox" onClick={handleOnClick} id="toggle" checked />
+                                :
+                                <input type="checkbox" onClick={handleOnClick} id="toggle" />
+
+                        }
+                        <label htmlFor="toggle" className={styles.switch}></label>
+                    </div>
                 </div>
+
             </nav>
         </div>
     );

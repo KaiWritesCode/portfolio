@@ -36,7 +36,7 @@
 }
 
 .contactForm textarea,
-input {
+.contactForm input {
   background: #ffffff;
   box-shadow: 0 0.2rem 0.2rem rgba(51, 51, 51, 0.157);
   border-radius: 4px;

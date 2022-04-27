@@ -23,7 +23,7 @@
 }
 
 .card {
-  border: 2px solid var(--accentColor);
+  border: 2px solid var(--accent);
   border-radius: 10px;
   padding: 1rem 0.75rem;
   display: flex;
@@ -97,7 +97,7 @@
     justify-content: start;
   }
 
-  .cardTop>img {
+  .cardTop > img {
     margin-right: 8px;
   }
 }
