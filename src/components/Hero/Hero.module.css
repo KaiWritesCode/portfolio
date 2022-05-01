@@ -1,0 +1,69 @@
+#heroSection {
+  margin: 2rem 0;
+}
+
+#heroSection p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.textDiv {
+  margin-right: 40px;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 50%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 28px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #28acb3;
+  border: var(--accentColor);
+  border-radius: 200px;
+  box-shadow: rgba(35, 143, 149, 0.157) 0px 20px 25px -5px,
+    rgba(35, 143, 149, 0.082) 0px 10px 10px -5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #239095;
+  cursor: pointer;
+  box-shadow: rgba(35, 143, 149, 0.192) 0px 20px 25px -5px,
+    rgba(35, 143, 149, 0.157) 0px 10px 10px -5px;
+}
+
+.skeleton {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+
+.test {
+  height: 500px;
+}
+
+@media screen and (max-width: 778px) {
+  .flexCenter {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .textDiv {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+}

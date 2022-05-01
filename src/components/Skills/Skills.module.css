@@ -1,0 +1,113 @@
+.leftCol,
+.rightCol {
+  width: 50%;
+}
+
+.leftCol {
+  margin-right: 30px;
+}
+
+.cardContainer {
+  display: flex;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.card {
+  border: 2px solid var(--accent);
+  border-radius: 10px;
+  padding: 1rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.16s ease-in;
+}
+
+.cardContainer .card:first-child {
+  margin-right: 10px;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.skillsDiv {
+  margin: 28px 0;
+}
+
+.cardHeader {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--heading);
+}
+
+/* Card Hover Effects  */
+
+.card:hover {
+  box-shadow: rgba(35, 143, 149, 0.027) 0px 18px 20px 0px;
+  border-color: #33bcc3;
+}
+
+.card .gif {
+  display: none;
+}
+
+.card:hover .pic {
+  display: none;
+}
+
+.card:hover .gif {
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    padding: 0.55rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    padding: 1rem;
+    margin: 20px 0 0;
+  }
+
+  .flexCenter {
+    flex-direction: column;
+  }
+
+  .leftCol,
+  .rightCol {
+    width: 100%;
+    margin: 0;
+  }
+
+  .cardTop {
+    justify-content: start;
+  }
+
+  .cardTop > img {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .cardContainer .card:first-child {
+    margin: 0;
+  }
+}

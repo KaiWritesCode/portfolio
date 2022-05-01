@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+.container {
+  display: flex;
+}
+
+.heading {
+  margin: 0 0 10px;
+}
+
+.rightCol {
+  width: 60%;
+}
+
+.leftCol {
+  width: 40%;
+  padding-right: 4rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.socialIcons {
+  display: flex;
+  margin: 20px 0;
+}
+
+.socialIcons img {
+  width: 40px;
+  margin: 0 12px;
+}
+
+.paragraph {
+  margin: 25px 0;
+}
+
+.contactForm textarea,
+.contactForm input {
+  background: #ffffff;
+  box-shadow: 0 0.2rem 0.2rem rgba(51, 51, 51, 0.157);
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  border: 1px solid #262626;
+  display: flex;
+  align-items: center;
+  padding: 4px 0 4px 12px;
+  margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.9rem;
+  color: rgb(0, 0, 0);
+}
+
+.contactForm textarea {
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+.contactForm button {
+  border: 1px solid #262626;
+  padding: 12px 15px;
+  margin: 10px 0;
+  width: 250px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 778px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .rightCol,
+  .leftCol {
+    width: 100%;
+    padding: 0;
+  }
+}

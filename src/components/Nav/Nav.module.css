@@ -1,0 +1,164 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  transition: left 0.2s ease 0s;
+  width: 100%;
+  padding: 1rem 2.5rem;
+  max-width: 1400px;
+}
+
+.logo .gif {
+  display: none;
+}
+
+.logo:hover .gif {
+  display: block;
+}
+
+.logo:hover .pic {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > span {
+  color: white;
+  font-size: 1.4rem;
+  margin-left: -10px;
+  margin-bottom: -10px;
+}
+
+.icon {
+  width: 30px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 1.25rem;
+  align-items: center;
+}
+
+.navLinks li a {
+  margin: 0 20px 0;
+  padding-bottom: 8px;
+  color: white;
+  position: relative;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons li img {
+  margin: 0 8px;
+}
+
+.mobileUl {
+  margin: 0.5em 2em;
+}
+
+.mobileUl li a {
+  color: white;
+}
+
+/* Hover Effect  */
+
+.navLinks a,
+.navLinks a:after,
+.navLinks a:before {
+  transition: all 0.5s;
+}
+
+.navLinks a:hover {
+  color: #31c2b6;
+  cursor: pointer;
+}
+
+.navLinks a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+.navLinks a:hover:after {
+  width: 100%;
+}
+
+.switchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 14px;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+input[type="checkbox"]:checked + label {
+  transform: rotate(360deg);
+  background-color: #000;
+}
+
+input[type="checkbox"]:checked + label::before {
+  transform: translateX(24px);
+  background-color: #fff;
+}
+
+.switch {
+  display: flex;
+  position: relative;
+  width: 60px;
+  height: 34px;
+  border-radius: 34px;
+  transition: transform 0.75s ease-in-out;
+  transform-origin: 50% 50%;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.switch::before {
+  transition: transform 0.75s ease;
+  transition-delay: 0.5s;
+  content: "";
+  display: block;
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 7px;
+  bottom: 5px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .container {
+    padding: 0.5rem 1.5rem;
+  }
+}

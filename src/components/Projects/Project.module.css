@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.header {
+  font-size: 2rem;
+  color: var(--subhead);
+}
+
+.textDiv p {
+  margin: 8px 0;
+}
+
+.imageDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 2rem;
+  position: relative;
+  min-width: 450px;
+}
+
+.discord {
+  width: 480px;
+}
+
+.nftSpotter {
+  width: 500px;
+}
+
+
+.image {
+  max-width: 550px;
+}
+
+
+.textDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.iconContainer>img {
+  margin: 0 6px;
+}
+
+.btnGroup {
+  margin: 15px 0;
+}
+
+.btnGroup a {
+  margin-right: 20px;
+  width: 140px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .imageDiv {
+    min-width: 350px;
+    margin-right: 1rem;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 778px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .image {
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  .discord {
+    width: 70%;
+  }
+
+  .textDiv {
+    margin-left: 0px;
+  }
+
+  .imageDiv {
+    margin: 0;
+    margin: 0 auto;
+    min-width: 0;
+  }
+
+  .btnGroup {
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width: 481px) {
+  .row {
+    margin-bottom: 1rem;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .btnGroup {
+    justify-content: center;
+    align-items: center;
+  }
+}
