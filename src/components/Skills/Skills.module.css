@@ -59,17 +59,33 @@
   border-color: #33bcc3;
 }
 
-.card .gif {
+/* dark mode options 
+var darkBlock: Display block when in dark mode
+var lightBlock: Display block when in light mode */
+
+.card .dark, .card:hover .darkGif {
+  display: var(--darkBlock)
+}
+
+.card .light, .card:hover .lightGif {
+  display: var(--lightBlock);
+}
+
+
+.card .darkGif, .card .lightGif {
   display: none;
 }
+
 
 .card:hover .pic {
   display: none;
 }
 
-.card:hover .gif {
-  display: block;
-}
+
+
+
+
+
 
 @media screen and (max-width: 1200px) {
   .card {

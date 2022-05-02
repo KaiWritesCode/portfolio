@@ -8,12 +8,9 @@ export default function About() {
         <div className={styles.card}>
             <div className={styles.cardTop}>
                 <img className={`${styles.pic} ${styles.dark}`} src="images/icons/computer-icon.png" width="50" alt="computer icon" />
-                <img className={`${styles.gif} ${styles.dark}`} src="images/icons/computer-icon.gif" width="50" alt="computer gif" />
+                <img className={`${styles.darkGif} ${styles.dark}`} src="images/icons/computer-icon.gif" width="50" alt="computer gif" />
                 <img className={`${styles.pic} ${styles.light}`} src="images/icons/computer-black.png" width="50" alt="computer icon" />
-                <img className={`${styles.gif} ${styles.light}`} src="images/icons/computer-black.gif" width="50" alt="computer gif" />
-
-                <img className={styles.pic} src="images/icons/computer-icon.png" width="50" alt="computer icon" />
-                <img className={styles.gif} src="images/icons/computer-icon.gif" width="50" alt="computer gif" />
+                <img className={`${styles.lightGif} ${styles.light}`} src="images/icons/computer-black.gif" width="50" alt="computer gif" />
                 <div className={styles.cardHeader}>Website Creation</div>
             </div>
             <p>I build and maintain websites with modern technology being used in top companies. I
@@ -27,12 +24,9 @@ export default function About() {
         <div className={styles.card}>
             <div className={styles.cardTop}>
                 <img className={`${styles.pic} ${styles.dark}`} src="images/icons/edit-doc.png" width="50" alt="tool icon" />
-                <img className={`${styles.gif} ${styles.dark}`} src="images/icons/edit-doc.gif" width="50" alt="tool gif" />
+                <img className={`${styles.darkGif} ${styles.dark}`} src="images/icons/edit-doc.gif" width="50" alt="tool gif" />
                 <img className={`${styles.pic} ${styles.light}`} src="images/icons/edit-black.png" width="50" alt="tool pic" />
-                <img className={`${styles.gif} ${styles.light}`} src="images/icons/edit-black.gif" width="50" alt="tool gif" />
-
-                <img className={styles.pic} src="images/icons/edit-doc.png" width="50" alt="tool icon" />
-                <img className={styles.gif} src="images/icons/edit-doc.gif" width="50" alt="tool gif" />
+                <img className={`${styles.lightGif} ${styles.light}`} src="images/icons/edit-black.gif" width="50" alt="tool gif" />
                 <div className={styles.cardHeader}>Website Design</div>
             </div>
             <p>I create aesthetically pleasing designs with responsive layouts. I have a solid

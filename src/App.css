@@ -15,6 +15,8 @@
   --background: #1b263b;
   --light-background: #586f7c;
   --button-border: #b8dbd9;
+  --darkBlock: block;
+  --lightBlock: none;
 }
 
 .theme-light {
@@ -23,6 +25,8 @@
   --background: #dbe7e4;
   --light-background: #eddcd2;
   --button-border: #5e4b56;
+  --darkBlock: none;
+  --lightBlock: block;
 }
 
 nav {
