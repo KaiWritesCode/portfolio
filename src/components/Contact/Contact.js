@@ -49,27 +49,27 @@ export default function Contact() {
                         <ul className={styles.socialIcons}>
                             <li>
                                 <a title="Github" target="_blank" rel="noreferrer" href="https://github.com/kaiwritescode">
-                                    <img className={styles.icon} src="/images/icons/github.png" alt="github" />
+                                    <img width={30} src="/images/icons/github.png" alt="github" />
                                 </a>
                             </li>
                             <li>
                                 <a title="Twitter" target="_blank" rel="noreferrer" href="https://twitter.com/kaiwritescode">
-                                    <img className={styles.icon} src="/images/icons/twitter-white.png" alt="twitter" />
+                                    <img className={styles.icon} src="/images/icons/twitter-brands.svg" alt="twitter" />
                                 </a>
                             </li>
                             <li>
                                 <a title="Linkin" href="https://www.linkedin.com/in/kai-bechdel/" target="blank" rel="noreferrer">
-                                    <img className={styles.icon} src="/images/icons/linkedin.png" alt="linkin" />
+                                    <img className={styles.icon} src="/images/icons/linkedin-brands.svg" alt="linkin" />
                                 </a>
                             </li>
                             <li>
                                 <a title="Email" href="mailto: kbechdel8@gmail.com">
-                                    <img className={styles.icon} src="/images/icons/email.png" alt="gmail" />
+                                    <img className={styles.icon} src="/images/icons/envelope-solid.svg" alt="gmail" />
                                 </a>
                             </li>
                             <li>
                                 <a title="Phone" href="tel:3866902153">
-                                    <img className={styles.icon} src="/images/icons/phone-call.png" alt="phone" />
+                                    <img className={styles.icon} src="/images/icons/phone-solid.svg" alt="phone" />
                                 </a>
                             </li>
                         </ul>

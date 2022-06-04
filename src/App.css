@@ -12,6 +12,10 @@
 .theme-dark {
   --text: #ffffff;
   --secondaryText: #b7c9e0;
+  --navText: #ffffff;
+
+  --svgColor: invert(100%) sepia(0%) saturate(7500%) hue-rotate(124deg) brightness(101%) contrast(106%);
+
   --background: #1b263b;
   --light-background: #586f7c;
   --button-border: #b8dbd9;
@@ -22,6 +26,10 @@
 .theme-light {
   --text: #000000;
   --secondaryText: #186f74;
+  --navText: #219ba1;
+
+  --svgColor: invert(0%) sepia(0%) saturate(9%) hue-rotate(252deg) brightness(101%) contrast(101%);
+
   --background: #dbe7e4;
   --light-background: #eddcd2;
   --button-border: #5e4b56;
