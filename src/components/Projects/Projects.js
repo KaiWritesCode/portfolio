@@ -80,6 +80,36 @@ export default function Projects() {
                         </div>
                     </div>
                 </motion.div>
+                <motion.div
+                    className={styles.row}
+                    initial={{ x: '-100%', opacity: 0 }}
+                    amount={"some"}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ ease: [0.6, 0.2, 0.1, 1], duration: 1, delay: 0.2 }}
+                >
+                    <div className={styles.imageDiv}>
+                        <img className={`${styles.image} `} src="images/mockups/dashboard.png" alt="NFT Spotter project" />
+                    </div>
+                    <div className={styles.textDiv}>
+                        <h3 className={styles.header}>React Dashboard</h3>
+                        <p>This React Dashboard is a modern layout created with React and Tailwind CSS. Although the data is static, it can be easily implemented with dynamic data
+                            from a database or API.
+                        </p>
+                        <div className={styles.iconContainer}>
+                            <img src="images/icons/react.png" title='React.js' width="40" alt="react" />
+                            <img src="images/icons/html.png" width="40" title='HTML' alt="html" />
+                            <img src="images/icons/css.png" width="40" title='CSS' alt="css" />
+                            <img src="images/icons/typescript.png" width="40" title='Typescript' alt="typescript" />
+                            <img src="images/icons/tailwind-css.png" width="40" height="40" title='React Bootstrap' alt="material ui" />
+
+                        </div>
+                        <div className={styles.btnGroup}>
+                            <a target="_blank" rel="noreferrer" href='https://github.com/KaiWritesCode/react-dashboard' className="light-btn btn">See Code</a>
+                            <a target="_blank" rel="noreferrer" href='https://react-dashboard-3mrtcuodi-kaiwritescode.vercel.app/' className="light-btn btn">See Live</a>
+                        </div>
+                    </div>
+                </motion.div>
 
                 <motion.div
                     className={styles.row}
