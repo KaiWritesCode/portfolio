@@ -19,7 +19,7 @@ export default function Blogs() {
                         <h3 className={styles.heading}>How to add Skeleton Loading to your React Project</h3>
                         <p className={styles.paragraph}> In this guide, you will find a simple step-by-step process to
                             creating the component, and implementing the logic to determine when to display the skeleton loading. </p>
-                        <p className={styles.date}>Jan 14, 2022</p>
+                        <p className={styles.date}>Mar 16, 2022</p>
                     </div>
                 </a>
             </motion.div>

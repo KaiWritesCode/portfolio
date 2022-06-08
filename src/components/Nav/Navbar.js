@@ -97,7 +97,7 @@ export default function Navbar() {
                         <ul className={styles.socialIcons}>
                             <li>
                                 <a title="Github" href="https://github.com/kaiwritescode" target="blank" rel="noreferrer">
-                                    <img width={30} src="/images/icons/github.png" alt="github" />
+                                    <img width={33} src="/images/icons/github.png" alt="github" />
                                 </a>
                             </li>
                             <li>
