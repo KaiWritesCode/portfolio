@@ -106,7 +106,7 @@ export default function Projects() {
                         </div>
                         <div className={styles.btnGroup}>
                             <a target="_blank" rel="noreferrer" href='https://github.com/KaiWritesCode/react-dashboard' className="light-btn btn">See Code</a>
-                            <a target="_blank" rel="noreferrer" href='https://react-dashboard-3mrtcuodi-kaiwritescode.vercel.app/' className="light-btn btn">See Live</a>
+                            <a target="_blank" rel="noreferrer" href='https://react-dashboard-lilac.vercel.app/' className="light-btn btn">See Live</a>
                         </div>
                     </div>
                 </motion.div>
