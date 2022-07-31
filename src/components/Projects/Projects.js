@@ -10,7 +10,6 @@ export default function Projects() {
 
 
     return (
-
         <section id='projects'>
             <h2>Projects</h2>
 
@@ -49,7 +48,7 @@ export default function Projects() {
                 </motion.div>
 
 
-                <motion.div
+                {/* <motion.div
                     className={styles.row}
                     initial={{ x: '-100%', opacity: 0 }}
                     amount={"some"}
@@ -79,7 +78,7 @@ export default function Projects() {
                             <a target="_blank" rel="noreferrer" href='https://kaiwritescode.github.io/nft-spotter/' className="light-btn btn">See Live</a>
                         </div>
                     </div>
-                </motion.div>
+                </motion.div> */}
                 <motion.div
                     className={styles.row}
                     initial={{ x: '-100%', opacity: 0 }}
