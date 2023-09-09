@@ -40,7 +40,7 @@ export default function HeroSection() {
                 >
                     <img className={styles.heroImg}
                         alt="Kai profile"
-                        src="/images/laptop-profile.png"
+                        src="/images/hero-computer.jpg"
                         onLoad={() => setLoaded(true)}
                     />
                 </motion.div>
